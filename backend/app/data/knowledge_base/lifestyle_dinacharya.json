@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lifestyle_brahma_muhurta_awakening",
+    "source": "Ashtanga Hridaya, Sutrasthana Ch. 2 (Dinacharya Adhyaya), Verse 1",
+    "category": "lifestyle",
+    "title": "Awakening at Brahma Muhurta (Pre-Dawn Transition)",
+    "dosha_affinity": {
+      "vata": "balances",
+      "pitta": "balances",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all"],
+    "content": "Vagbhata states: 'Brahme Muhurte Uttishthet Svastho Rakshartham Ayushah' — a healthy individual wishing to preserve their lifespan and vitality should awaken during Brahma Muhurta, approximately two Muhurtas (96 minutes) before sunrise (roughly 04:30 AM to 05:30 AM). During this predawn window, pure oxygen and Sattvic environmental energy are at their zenith, and Vata dosha dominates the atmosphere, facilitating effortless bowel evacuation, mental clarity, and deep sensory tranquility. Sleeping past sunrise elevates heavy Kapha, clogging cellular channels and inducing daytime lethargy.",
+    "classical_tags": ["Brahma Muhurta", "Circadian Awakening", "Dinacharya", "Sattva", "Kapha-Pacifying"],
+    "contraindications": "Elderly, young children, pregnant women, and individuals suffering from acute debilitating illness or severe insomnia may sleep until gentle sunrise."
+  },
+  {
+    "id": "lifestyle_jihwa_nirlekhana_tongue_scraping",
+    "source": "Charaka Samhita, Sutrasthana Ch. 5, Verse 74-75",
+    "category": "lifestyle",
+    "title": "Tongue Scraping (Jihwa Nirlekhana)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all"],
+    "content": "Jihwa Nirlekhana (scraping the tongue with a curved scraper of copper, silver, or stainless steel with non-sharp edges) is a mandatory morning purification ritual. Charaka explains that overnight metabolic residues and bacterial coatings (Jihwa-Mala) obstruct taste receptors, foster bad breath (Daurgandhya), and inhibit the reflex stimulation of gastric digestive juices. Scraping 5 to 7 times from the base to the tip clears mucosal slime, eliminates toxic Ama, sharpens taste perception (Rasa Bodhana), and stimulates salivary and digestive secretions throughout the gut.",
+    "classical_tags": ["Jihwa Nirlekhana", "Tongue Scraping", "Oral Hygiene", "Ama Removal", "Digestive Fire"],
+    "contraindications": "Never scrape excessively or use sharp razors that cause mucosal bleeding or pain."
+  },
+  {
+    "id": "lifestyle_gandusha_kavala_oral_oil_care",
+    "source": "Charaka Samhita, Sutrasthana Ch. 5, Verse 78-83 & Ashtanga Hridaya Sutrasthana Ch. 2",
+    "category": "lifestyle",
+    "title": "Oral Oil Holding vs Gargling (Gandusha vs Kavala)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["all", "hemanta", "shishira", "varsha"],
+    "content": "Classical Ayurveda makes a strict clinical distinction between two oral therapies: 1) Gandusha (Holding): Filling the oral cavity completely with warm sesame oil or medicated decoction to maximum capacity so that no movement of the fluid is possible, holding until tears well in the eyes or nasal secretions occur. It strengthens jaw bones, teeth roots, prevents cavities, alleviates facial dryness, and grounds restless Vata. 2) Kavala (Swishing): Taking three-fourths capacity and actively circulating/gargling the oil between the teeth for 3-5 minutes, then spitting into trash. Daily Kavala with warm sesame oil prevents tooth sensitivity, strengthens gums, and clears oral toxins.",
+    "classical_tags": ["Gandusha", "Kavala", "Oil Pulling", "Tila Taila", "Dental Health"],
+    "contraindications": "Never swallow the oil after swishing, as it contains toxic oral metabolic waste. Contraindicated during acute throat ulcers or active vomiting."
+  },
+  {
+    "id": "lifestyle_abhyanga_daily_oil_massage",
+    "source": "Ashtanga Hridaya, Sutrasthana Ch. 2, Verse 8-9 & Charaka Samhita Sutrasthana Ch. 5",
+    "category": "lifestyle",
+    "title": "Full-Body Warm Oil Massage (Abhyanga)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "balances"
+    },
+    "season_affinity": ["all", "hemanta", "shishira", "varsha"],
+    "content": "Vagbhata proclaims: 'Abhyangam Acharen Nityam Sa Jara-Shrama-Vataha' — full-body oil massage with warm, unctuous oil should be practiced daily. It wards off aging (Jara), overcomes physical and mental exhaustion (Shrama), and pacifies excessive Vata. It improves ocular health (Drishti Prasada), nourishes the body tissues (Pushti), enhances longevity (Ayus), and induces deep, restorative sleep. Special emphasis is mandated on three key anatomical zones: Head (Shiro Abhyanga), Ears (Karna Poorana), and Soles of the Feet (Pada Abhyanga).",
+    "classical_tags": ["Abhyanga", "Oil Massage", "Vata-Hara", "Anti-Aging", "Longevity"],
+    "contraindications": "Strictly contraindicated during acute indigestion (Ajirna), active toxic Ama states, acute fever (Jwara), severe Kapha congestion, and immediately after meals."
+  },
+  {
+    "id": "lifestyle_pada_abhyanga_foot_massage",
+    "source": "Charaka Samhita, Sutrasthana Ch. 5, Verse 90-92",
+    "category": "lifestyle",
+    "title": "Foot Oil Massage for Deep Sleep (Pada Abhyanga)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["all"],
+    "content": "Charaka states that massaging the soles of the feet nightly with warm sesame oil or cow's ghee prevents roughness, stiffness, dryness, fatigue, and numbness in the lower extremities. Because vital sensory nerves connecting directly to the eyes (Alochaka Pitta) and cranial nervous system originate in the soles of the feet, Pada Abhyanga enhances vision (Drishti Prasadana), relieves sensory fatigue, calms nervous anxiety, and immediately induces deep, peaceful, restorative sleep (Nidra-Janana).",
+    "classical_tags": ["Pada Abhyanga", "Foot Massage", "Nidra", "Insomnia Remedy", "Vata Pacifying"],
+    "contraindications": "Do not practice during acute foot infections, deep vein thrombosis, or high systemic fever."
+  },
+  {
+    "id": "lifestyle_ardha_shakti_vyayama_exercise",
+    "source": "Charaka Samhita, Sutrasthana Ch. 7, Verse 31-35 & Ashtanga Hridaya Sutrasthana Ch. 2",
+    "category": "lifestyle",
+    "title": "The Classical Exertion Rule: Half-Capacity (Ardha-Shakti Vyayama)",
+    "dosha_affinity": {
+      "vata": "balances",
+      "pitta": "neutral",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "hemanta", "shishira", "vasanta"],
+    "content": "Classical Ayurveda prohibits extreme, exhaustive workouts that lead to physical depletion. Acharya Sushruta and Charaka mandate the Ardha-Shakti rule: an individual should exercise only up to 50% of their biological physical capacity. The definitive clinical signs of reaching Ardha-Shakti are: 1) Appearance of beads of perspiration on the forehead, nose, armpits, and joint crevices. 2) Transition to mouth breathing (Prana vayu moving rapidly). Continuing past this threshold leads to severe tissue breakdown (Dhatu Kshaya), dry Vata aggravation, chronic exhaustion, and joint degeneration.",
+    "classical_tags": ["Ardha-Shakti", "Vyayama", "Exercise Limit", "Dhatu Protection", "Fitness Rule"],
+    "contraindications": "Over-exercising (Ati-Vyayama) causes thirst, emaciation, shortness of breath (Shwasa), cough (Kasa), internal bleeding (Raktapitta), and sudden collapse."
+  },
+  {
+    "id": "lifestyle_nidra_niyama_sleep_hygiene",
+    "source": "Charaka Samhita, Sutrasthana Ch. 21, Verse 35-40",
+    "category": "lifestyle",
+    "title": "Restorative Sleep & Circadian Chronobiology (Nidra Niyama)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "balances"
+    },
+    "season_affinity": ["all"],
+    "content": "Charaka identifies Nidra (sleep) as one of the three foundational pillars of life (Traya Upastambha). Happiness, nourishment, physical strength, virility, knowledge, and life itself depend upon proper sleep. Optimum restorative sleep occurs between 10:00 PM and 06:00 AM (the Kapha circadian window). Daytime sleeping (Divaswapna) is strictly forbidden in all seasons except summer (Grishma), as daytime naps vitiate Kapha and Pitta, cause heaviness in the chest, sluggish metabolism (Agnimandya), and skin diseases. Night awakening (Ratri Jagarana) causes dryness and aggravates Vata.",
+    "classical_tags": ["Nidra", "Sleep Chronobiology", "Divaswapna Prohibition", "Traya Upastambha", "Restoration"],
+    "contraindications": "Daytime sleep is forbidden for obese individuals, those with Kapha diseases, and diabetes, but permitted for the sick, exhausted travelers, and small children."
+  },
+  {
+    "id": "lifestyle_snana_bathing_rules",
+    "source": "Ashtanga Hridaya, Sutrasthana Ch. 2, Verse 16-17",
+    "category": "lifestyle",
+    "title": "Classical Bathing Temperature Protocol (Snana Vidhi)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all"],
+    "content": "Snana (bathing) purifies the body, stimulates appetite (Agnideepana), promotes vitality (Ojas), and dispels fatigue, sweat, and drowsiness. Vagbhata lays down a vital temperature distinction: pouring warm water below the neck (Kaya-Snana) imparts physical strength, relieves muscle stiffness, and pacifies Vata. However, pouring hot water over the head (Shiro-Snana) depletes hair strength and impairs ocular power and visual acuity (Hridya Netra Bala-Nashanam). Therefore, the head should always be washed with room-temperature or gently lukewarm water.",
+    "classical_tags": ["Snana", "Bathing Protocol", "Eye Health", "Hair Health", "Vitality"],
+    "contraindications": "Bathing immediately after meals, during active diarrhea, ear infections (Karna Roga), eye infections, and facial paralysis (Ardita) is forbidden."
+  }
+]

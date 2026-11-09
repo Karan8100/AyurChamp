@@ -1,0 +1,498 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+app/
+  core/
+    config.py
+    security.py
+  db/
+    session.py
+  routers/
+    auth.py
+  main.py
+  models.py
+  schemas.py
+.env.example
+pyproject.toml
+README.md
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="app/core/config.py">
+from pydantic_settings import BaseSettings, SettingsConfigDict
+
+
+class Settings(BaseSettings):
+    database_url: str
+    secret_key: str
+    environment: str = "development"
+
+    model_config = SettingsConfigDict(env_file=".env")
+
+
+settings = Settings()
+</file>
+
+<file path="app/core/security.py">
+from datetime import datetime, timedelta, timezone
+from typing import Optional
+
+import jwt
+from passlib.context import CryptContext
+
+from app.core.config import settings
+
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 60
+
+
+def hash_value(value: str) -> str:
+    """Used for both passwords and OTP codes — never store either in plain text."""
+    return pwd_context.hash(value)
+
+
+def verify_value(plain: str, hashed: str) -> bool:
+    return pwd_context.verify(plain, hashed)
+
+
+def create_access_token(user_id: int, role: str) -> str:
+    expire = datetime.now(timezone.utc) + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    payload = {"sub": str(user_id), "role": role, "exp": expire}
+    return jwt.encode(payload, settings.secret_key, algorithm=ALGORITHM)
+
+
+def decode_access_token(token: str) -> Optional[dict]:
+    try:
+        return jwt.decode(token, settings.secret_key, algorithms=[ALGORITHM])
+    except jwt.PyJWTError:
+        return None
+</file>
+
+<file path="app/db/session.py">
+from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker
+from sqlmodel.ext.asyncio.session import AsyncSession
+
+from app.core.config import settings
+
+engine = create_async_engine(settings.database_url, echo=settings.environment == "development")
+
+async_session = async_sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)
+
+
+async def get_session():
+    async with async_session() as session:
+        yield session
+</file>
+
+<file path="app/routers/auth.py">
+import random
+from datetime import datetime, timedelta, timezone
+
+from fastapi import APIRouter, Depends, HTTPException
+from sqlmodel import select
+from sqlmodel.ext.asyncio.session import AsyncSession
+
+from app.core.security import create_access_token, hash_value, verify_value
+from app.db.session import get_session
+from app.models import OTPVerification, User
+from app.schemas import (
+    LoginRequest,
+    OTPRequest,
+    OTPVerifyRequest,
+    SignupRequest,
+    TokenResponse,
+)
+
+router = APIRouter(prefix="/auth", tags=["auth"])
+
+OTP_EXPIRE_MINUTES = 5
+MAX_OTP_ATTEMPTS = 5
+
+
+@router.post("/signup", response_model=TokenResponse)
+async def signup(payload: SignupRequest, session: AsyncSession = Depends(get_session)):
+    if not payload.consent_given:
+        raise HTTPException(400, "Consent is required to create an account")
+
+    result = await session.exec(select(User).where(User.email == payload.email))
+    if result.first():
+        raise HTTPException(400, "Email already registered")
+
+    user = User(
+        name=payload.name,
+        email=payload.email,
+        password_hash=hash_value(payload.password),
+        auth_provider="email",
+        preferred_language=payload.preferred_language,
+        consent_given_at=datetime.now(timezone.utc),
+    )
+    session.add(user)
+    await session.commit()
+    await session.refresh(user)
+
+    token = create_access_token(user.id, user.role)
+    return TokenResponse(access_token=token, user_id=user.id, role=user.role)
+
+
+@router.post("/login", response_model=TokenResponse)
+async def login(payload: LoginRequest, session: AsyncSession = Depends(get_session)):
+    result = await session.exec(select(User).where(User.email == payload.email))
+    user = result.first()
+    if not user or not user.password_hash or not verify_value(payload.password, user.password_hash):
+        raise HTTPException(401, "Incorrect email or password")
+
+    user.last_login_at = datetime.now(timezone.utc)
+    session.add(user)
+    await session.commit()
+
+    token = create_access_token(user.id, user.role)
+    return TokenResponse(access_token=token, user_id=user.id, role=user.role)
+
+
+@router.post("/otp/request")
+async def request_otp(payload: OTPRequest, session: AsyncSession = Depends(get_session)):
+    code = f"{random.randint(0, 999999):06d}"
+    otp = OTPVerification(
+        identifier=payload.phone,
+        code_hash=hash_value(code),
+        purpose=payload.purpose,
+        expires_at=datetime.now(timezone.utc) + timedelta(minutes=OTP_EXPIRE_MINUTES),
+    )
+    session.add(otp)
+    await session.commit()
+
+    # TODO Phase 1: send via SMS gateway (Twilio / MSG91) instead of returning it.
+    # Returned directly here so you can test the flow locally without a gateway account.
+    return {"message": "OTP sent", "dev_only_code": code}
+
+
+@router.post("/otp/verify", response_model=TokenResponse)
+async def verify_otp(payload: OTPVerifyRequest, session: AsyncSession = Depends(get_session)):
+    result = await session.exec(
+        select(OTPVerification)
+        .where(OTPVerification.identifier == payload.phone, OTPVerification.verified == False)  # noqa: E712
+        .order_by(OTPVerification.created_at.desc())
+    )
+    otp = result.first()
+
+    if not otp or otp.expires_at < datetime.now(timezone.utc):
+        raise HTTPException(400, "OTP expired or not found")
+    if otp.attempts >= MAX_OTP_ATTEMPTS:
+        raise HTTPException(429, "Too many attempts, request a new OTP")
+    if not verify_value(payload.code, otp.code_hash):
+        otp.attempts += 1
+        session.add(otp)
+        await session.commit()
+        raise HTTPException(400, "Incorrect OTP")
+
+    otp.verified = True
+    session.add(otp)
+
+    result = await session.exec(select(User).where(User.phone == payload.phone))
+    user = result.first()
+    if not user:
+        if not payload.consent_given:
+            raise HTTPException(400, "Consent is required to create an account")
+        user = User(
+            phone=payload.phone,
+            phone_verified=True,
+            auth_provider="phone",
+            consent_given_at=datetime.now(timezone.utc),
+        )
+    else:
+        user.phone_verified = True
+        user.last_login_at = datetime.now(timezone.utc)
+
+    session.add(user)
+    await session.commit()
+    await session.refresh(user)
+
+    token = create_access_token(user.id, user.role)
+    return TokenResponse(access_token=token, user_id=user.id, role=user.role)
+</file>
+
+<file path="app/main.py">
+from contextlib import asynccontextmanager
+
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from sqlmodel import SQLModel
+
+from app import models  # noqa: F401 — import registers tables on SQLModel.metadata
+from app.db.session import engine
+from app.routers import auth
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Phase 0 only: auto-create tables from models. Switch to Alembic migrations
+    # once the schema stabilizes (Phase 1+) so changes are tracked and reversible.
+    async with engine.begin() as conn:
+        await conn.run_sync(SQLModel.metadata.create_all)
+    yield
+
+
+app = FastAPI(title="Prakruti Portal API", lifespan=lifespan)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],  # Vite dev server
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+app.include_router(auth.router)
+
+
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
+</file>
+
+<file path="app/models.py">
+from datetime import datetime
+from typing import Optional
+
+from sqlmodel import Field, SQLModel
+
+
+class User(SQLModel, table=True):
+    """Auth-linked profile. PII lives here, kept separate from any future
+    health/assessment data (added in Phase 1) so the two can be governed
+    and deleted independently.
+    """
+
+    id: Optional[int] = Field(default=None, primary_key=True)
+    name: Optional[str] = None
+    email: Optional[str] = Field(default=None, unique=True, index=True)
+    phone: Optional[str] = Field(default=None, unique=True, index=True)
+    password_hash: Optional[str] = None  # set only for email+password signups
+    google_id: Optional[str] = Field(default=None, unique=True, index=True)
+    auth_provider: str = "email"  # "email" | "phone" | "google"
+    email_verified: bool = False
+    phone_verified: bool = False
+    preferred_language: str = "en"
+    role: str = "user"  # "user" | "practitioner" | "admin"
+    consent_given_at: Optional[datetime] = None
+    is_active: bool = True
+    created_at: datetime = Field(default_factory=datetime.utcnow)
+    last_login_at: Optional[datetime] = None
+
+
+class OTPVerification(SQLModel, table=True):
+    """Short-lived OTP records, kept separate from User since a phone/email
+    may be verified before any User row exists for it (first-time signup).
+    """
+
+    id: Optional[int] = Field(default=None, primary_key=True)
+    identifier: str = Field(index=True)  # phone or email the OTP was sent to
+    code_hash: str
+    purpose: str = "login"  # "login" | "signup" | "verify_phone" | "verify_email"
+    expires_at: datetime
+    verified: bool = False
+    attempts: int = 0
+    created_at: datetime = Field(default_factory=datetime.utcnow)
+
+# Phase 1 will add: AssessmentSession, QuestionResponse — once the
+# question bank is finalized.
+</file>
+
+<file path="app/schemas.py">
+from typing import Optional
+
+from pydantic import BaseModel, EmailStr
+
+
+class SignupRequest(BaseModel):
+    name: Optional[str] = None
+    email: EmailStr
+    password: str
+    preferred_language: str = "en"
+    consent_given: bool
+
+
+class LoginRequest(BaseModel):
+    email: EmailStr
+    password: str
+
+
+class OTPRequest(BaseModel):
+    phone: str
+    purpose: str = "login"  # "login" | "signup"
+
+
+class OTPVerifyRequest(BaseModel):
+    phone: str
+    code: str
+    consent_given: bool = False  # required only if this creates a new account
+
+
+class TokenResponse(BaseModel):
+    access_token: str
+    token_type: str = "bearer"
+    user_id: int
+    role: str
+</file>
+
+<file path=".env.example">
+DATABASE_URL=postgresql+asyncpg://prakruti:prakruti_dev_password@localhost:5432/prakruti_db
+SECRET_KEY=change-me-in-production
+ENVIRONMENT=development
+</file>
+
+<file path="pyproject.toml">
+[project]
+name = "prakruti-backend"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "sqlmodel>=0.0.22",
+    "asyncpg>=0.29.0",
+    "alembic>=1.13.0",
+    "pydantic-settings>=2.4.0",
+    "python-dotenv>=1.0.0",
+    "passlib[bcrypt]>=1.7.4",
+    "pyjwt>=2.9.0",
+    "email-validator>=2.2.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "httpx>=0.27.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+</file>
+
+<file path="README.md">
+# Phase 0 backend — setup (no Docker)
+
+## 1. Install Postgres natively
+
+**macOS:**
+```bash
+brew install postgresql@16
+brew services start postgresql@16
+```
+
+**Ubuntu/Debian:**
+```bash
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+```
+(starts automatically as a service)
+
+**Windows:** download the installer from https://www.postgresql.org/download/windows/
+
+## 2. Create the database and user
+```bash
+psql postgres
+```
+Then inside the `psql` prompt:
+```sql
+CREATE USER prakruti WITH PASSWORD 'prakruti_dev_password';
+CREATE DATABASE prakruti_db OWNER prakruti;
+\q
+```
+
+## 3. Install uv (Python package manager)
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+## 4. Environment variables
+```bash
+cp .env.example .env
+```
+Matches what you created in step 2 — no changes needed for local dev.
+
+## 5. Install dependencies
+```bash
+uv sync
+```
+
+## 6. Run the server
+```bash
+uv run uvicorn app.main:app --reload
+```
+
+Visit `http://localhost:8000/docs` for interactive API docs.
+Visit `http://localhost:8000/health` to confirm the server and DB connection are up.
+
+## What's included at Phase 0 — auth only
+
+- `User` — supports email+password, phone+OTP, and (future) Google login in one table via `auth_provider`
+- `OTPVerification` — short-lived OTP records, separate from `User` since a phone can be verified before an account exists
+
+**Endpoints:**
+- `POST /auth/signup` — email + password
+- `POST /auth/login` — email + password
+- `POST /auth/otp/request` — send OTP to a phone (dev mode returns the code directly in the response — replace with Twilio/MSG91 before shipping)
+- `POST /auth/otp/verify` — verify OTP, auto-creates the user on first login
+
+Tables auto-create on startup for now. Once the schema stabilizes, switch to Alembic:
+```bash
+uv run alembic init migrations
+uv run alembic revision --autogenerate -m "initial schema"
+uv run alembic upgrade head
+```
+Then remove the `SQLModel.metadata.create_all` call in `app/main.py`'s lifespan.
+
+## Next steps (Phase 1)
+- Add `AssessmentSession` and `QuestionResponse` models once the question bank is finalized
+- Wire real OTP delivery (Twilio/MSG91 for phone, Resend/SendGrid for email verification)
+- Add Google OAuth (`/auth/google`)
+- Add a `GET /auth/me` endpoint that reads the JWT and returns the current user
+</file>
+
+</files>

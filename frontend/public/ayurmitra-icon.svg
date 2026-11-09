@@ -1,0 +1,31 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ayurBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2A4638" />
+      <stop offset="50%" stop-color="#1E3329" />
+      <stop offset="100%" stop-color="#13231B" />
+    </linearGradient>
+    <linearGradient id="leafGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8D678" />
+      <stop offset="50%" stop-color="#E5B94C" />
+      <stop offset="100%" stop-color="#C48E22" />
+    </linearGradient>
+    <linearGradient id="leafEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78C697" />
+      <stop offset="100%" stop-color="#3B7D57" />
+    </linearGradient>
+    <radialGradient id="auraGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F5EBD7" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#2A4638" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <circle cx="24" cy="24" r="23" fill="url(#ayurBg)" stroke="#E5B94C" stroke-width="1.5" stroke-opacity="0.35" />
+  <circle cx="24" cy="24" r="18" fill="url(#auraGlow)" />
+  <path d="M24 38C24 38 12 31 12 21C12 15 16 11 20 12C22 12.5 24 15 24 15C24 15 26 12.5 28 12C32 11 36 15 36 21C36 31 24 38 24 38Z" fill="url(#leafEmerald)" fill-opacity="0.3" />
+  <path d="M24 29C20 27 15 22 15 16C18 15 23 18 24 24" stroke="url(#leafEmerald)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M24 29C28 27 33 22 33 16C30 15 25 18 24 24" stroke="url(#leafEmerald)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M24 34V14M24 14C22.8 11.5 24 8 24 8C24 8 25.2 11.5 24 14Z" stroke="url(#leafGold)" stroke-width="2.4" stroke-linecap="round" />
+  <circle cx="24" cy="8" r="1.8" fill="#FFF2CC" />
+  <circle cx="13.5" cy="15" r="1.2" fill="#E5B94C" fill-opacity="0.9" />
+  <circle cx="34.5" cy="15" r="1.2" fill="#E5B94C" fill-opacity="0.9" />
+</svg>

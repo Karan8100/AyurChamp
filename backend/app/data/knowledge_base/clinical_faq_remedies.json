@@ -1,0 +1,258 @@
+[
+  {
+    "id": "faq_amlapitta_hyperacidity_reflux",
+    "source": "Charaka Samhita, Chikitsa Sthana Ch. 15 & Madhava Nidana, Amlapitta Nidanam",
+    "category": "diet",
+    "title": "Amlapitta (Hyperacidity, Acid Reflux & Sour Belching Protocol)",
+    "dosha_affinity": {
+      "vata": "neutral",
+      "pitta": "pacifies",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["sharad", "grishma", "varsha"],
+    "content": "Amlapitta (acid dyspepsia / hyperacidity) occurs when the normal unctuous, sharp qualities of Pitta become vitiated by excessive sour (Amla) and liquid (Drava) attributes, causing burning sensation in the chest and throat (Hrit-Kantha Daha), sour regurgitation (Tikta-Amla Udgara), and nausea. Protocol: 1) Avoid sour fermented foods, curd, chilies, fried snacks, raw garlic, and vinegar. 2) Drink coriander seed water (Dhaniya Hima) soaked overnight and strained in the morning with rock candy (Mishri). 3) Sip warm boiled cow's milk with 1 teaspoon of cow's ghee on an empty stomach. 4) Take Yashtimadhu (Licorice root powder) or Shatavari powder with lukewarm water before meals to coat mucosal linings.",
+    "classical_tags": ["Amlapitta", "Hyperacidity", "Acid Reflux", "Dhaniya Hima", "Pitta Pacifying", "Yashtimadhu"],
+    "contraindications": "Do not skip meals or drink ice-cold water during active burning, as ice water further dampens Agni and leads to sluggish fermentation."
+  },
+  {
+    "id": "faq_vibandha_dry_constipation",
+    "source": "Charaka Samhita, Chikitsa Sthana Ch. 26 & Ashtanga Hridaya",
+    "category": "diet",
+    "title": "Vibandha (Chronic Dry Constipation & Incomplete Evacuation)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["hemanta", "shishira", "varsha"],
+    "content": "In Ayurveda, constipation (Vibandha) is fundamentally a disorder of Apana Vata located in the colon (Pakwashaya). Excessive dryness (Rukshata), rough dry diet, late-night waking, and suppression of natural urges (Vega Dharana) dry out the fecal matter. Protocol: 1) Never rely on harsh senna-based synthetic purgatives that dry the colon further. 2) Nightly Draksha Protocol: Soak 15-20 black raisins (Draksha) in water; blend with warm water and 1 teaspoon of cow's ghee, consuming at bedtime. 3) Cook all food with generous amounts of cow's ghee or sesame oil. 4) Sip warm water throughout the day. For severe dry constipation, take 1 teaspoon of pure castor oil (Eranda Taila) in warm ginger water at bedtime.",
+    "classical_tags": ["Vibandha", "Constipation", "Apana Vata", "Draksha", "Eranda", "Ghee Protocol"],
+    "contraindications": "Do not use harsh colon flushes or castor oil during active pregnancy, unexplained acute abdominal colic, or appendicitis."
+  },
+  {
+    "id": "faq_adhmana_bloating_flatulence",
+    "source": "Charaka Samhita, Chikitsa Sthana Ch. 28 (Vatavyadhi Chikitsa) & Sharngadhara Samhita",
+    "category": "diet",
+    "title": "Adhmana (Abdominal Bloating, Flatulence & Intestinal Gas)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "varsha"],
+    "content": "Adhmana (tympanites / abdominal distension with loud gurgling) results when impaired Samana and Apana Vayu become trapped in the intestines alongside undigested metabolic waste (Ama). The abdomen becomes tight like a drum (Anaha), accompanied by sharp moving cramps. Protocol: 1) Hingwashtak Churna: Take 1/2 teaspoon of Hingwashtak powder with the first bite of warm rice mixed with a spoonful of melted cow's ghee. 2) Ajwain-Salt Infusion: Boil 1 teaspoon of carom seeds (Ajwain) and a pinch of black salt (Saindhava Lavana) in a cup of water, sipping warm after meals. 3) Apply warm castor oil infused with a pinch of asafetida (Hing) around the navel in a clockwise motion to expel trapped wind.",
+    "classical_tags": ["Adhmana", "Bloating", "Flatulence", "Hingwashtak", "Ajwain", "Apana Vayu"],
+    "contraindications": "Caution with excessive pungent spices if the patient also suffers from active burning gastritis or peptic ulcers."
+  },
+  {
+    "id": "faq_anidra_insomnia_sleep_disorder",
+    "source": "Charaka Samhita, Sutrasthana Ch. 21 (Ashtaninditiya Adhyaya), Verse 50-52",
+    "category": "lifestyle",
+    "title": "Anidra (Insomnia, Disturbed Sleep & Midnight Waking)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["all"],
+    "content": "Anidra (sleeplessness) is caused by the vitiation of Vata and Pitta, emotional distress, physical exhaustion without nourishment, fasting, and exposure to blue-light screen stimulation late at night. Tarpaka Kapha, which nourishes brain tissues, becomes dry and depleted. Protocol: 1) Pada Abhyanga: Vigorously massage the soles of both feet for 5 minutes with warm sesame oil or Ksheerabala taila before getting into bed. 2) Golden Spiced Sleep Tonic: Simmer a cup of fresh whole cow's milk with 1/2 teaspoon of Ashwagandha, a pinch of freshly ground nutmeg (Jaiphal - a classical hypnotic / Nidra-janaka), and 1/2 teaspoon of ghee. Drink warm 30 minutes before sleep. 3) Discontinue all digital screens by 09:30 PM.",
+    "classical_tags": ["Anidra", "Insomnia", "Sleep Tonic", "Nutmeg", "Pada Abhyanga", "Tarpaka Kapha"],
+    "contraindications": "Do not drink heavy sweet milk if suffering from acute mucosal respiratory congestion, sinusitis, or acute fever."
+  },
+  {
+    "id": "faq_pratimarsha_nasya_nasal_drops",
+    "source": "Ashtanga Hridaya, Sutrasthana Ch. 20 (Nasya Vidhi) & Charaka Samhita",
+    "category": "lifestyle",
+    "title": "Pratimarsha Nasya (Daily Preventive Nasal Oil Therapy)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "balances",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all"],
+    "content": "Charaka declares: 'Nasa Hi Shiraso Dvaram' — the nose is the direct clinical doorway to the cranial vault and sensory organs (Indriyas). Pratimarsha Nasya is a daily, gentle micro-therapy: tilting the head back and instilling 2 drops of warm Anu Taila or pure Cow's Ghee into each nostril, then sniffing gently while spitting any throat secretions. Practiced every morning, it lubricates dry nasal mucosa, blocks airborne allergens and particulate pollution, prevents premature graying and hair fall, relieves chronic tension headaches, and strengthens vocal cords and cervical neck mobility.",
+    "classical_tags": ["Nasya", "Pratimarsha Nasya", "Anu Taila", "Cranial Health", "Allergy Shield", "Dinacharya"],
+    "contraindications": "Do not practice immediately after eating heavy meals, during active nasal hemorrhages, or during acute severe rhinitis with profuse runny mucus."
+  },
+  {
+    "id": "faq_agnimandya_sluggish_metabolism",
+    "source": "Charaka Samhita, Chikitsa Sthana Ch. 15 (Grahani Dosha Chikitsa)",
+    "category": "diet",
+    "title": "Agnimandya (Sluggish Digestion, Heavy Coated Tongue & Brain Fog)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["varsha", "vasanta", "hemanta"],
+    "gunas": ["Ama-Nashana", "Deepana", "Pachana"],
+    "content": "Agnimandya (hypo-functioning digestive fire) is the fundamental root etiology of all systemic disease in Ayurveda ('Rogah Sarvepi Mande Agnow'). Food ferments rather than digests, generating white coating on the tongue, heaviness after eating a few bites, and midday cognitive brain fog. Protocol: 1) Fresh Ginger Appetizer: 15 minutes before lunch, chew a thin slice of fresh ginger (Ardraka) sprinkled with rock salt (Saindhava Lavana) and a few drops of lime juice. This directly stimulates salivary amylase and Jatharagni without aggravating Pitta. 2) Drink only warm boiled water (Ushnodaka) during meals in small sips. 3) Do not eat until the previous meal is completely digested and genuine hunger (Kshudha) returns.",
+    "classical_tags": ["Agnimandya", "Sluggish Digestion", "Fresh Ginger", "Deepana", "Ama Clearing"],
+    "contraindications": "Avoid eating on a full stomach or grazing continuously throughout the day, as continuous snacking smothers internal Agni."
+  },
+  {
+    "id": "faq_sandhigata_vata_joint_stiffness",
+    "source": "Charaka Samhita, Chikitsa Sthana Ch. 28 & Bhavaprakasha Nighantu",
+    "category": "lifestyle",
+    "title": "Sandhigata Vata (Joint Dryness, Crepitus & Morning Stiffness)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["hemanta", "shishira", "varsha"],
+    "content": "Sandhigata Vata (osteoarthritis / joint degeneration) develops when dry, cold Vata dosha settles into the joint spaces (Sandhi), drying out synovial lubricating fluid (Shleshaka Kapha). Joints crack (crepitus / Sandhi-Sphutana), become painful on weight-bearing, and feel stiff in cold or rainy weather. Protocol: 1) Warm Oil Fomentation (Snehana-Swedana): Daily massage of affected joints with warm Mahanarayan oil or sesame oil, followed by hot water bottle fomentation. 2) Golden Milk at night with cow's ghee and turmeric. 3) Avoid raw dry salads, cold refrigerated drinks, and nightshades (excessive tomato, potato). 4) Gentle non-weight bearing movement like walking and swimming.",
+    "classical_tags": ["Sandhigata Vata", "Joint Stiffness", "Shleshaka Kapha", "Mahanarayan", "Snehana-Swedana"],
+    "contraindications": "If the joint is hot, red, and swollen (Amavata / Rheumatoid arthritis), oil massage is strictly contraindicated as heat and oil exacerbate inflammatory Ama."
+  },
+  {
+    "id": "faq_artava_dosha_pcod_pcos",
+    "source": "Charaka Samhita Chikitsa Sthana Ch. 30 (Yonivyapat Chikitsa) & Kashyapa Samhita",
+    "category": "lifestyle",
+    "title": "PCOD / PCOS & Hormonal Irregularity (Artava Kshaya / Granthi)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all"],
+    "content": "In Ayurveda, PCOD/PCOS is recognized as a multi-system Kapha-Vata disorder where heavy, sticky Kapha obstructs ovarian micro-channels (Artavavaha Srotas), preventing smooth ovum maturation, while vitiated Apana Vata disrupts the monthly cycle. Protocol: 1) Cinnamon-Fenugreek Infusion (Methi-Dalchini water): Boil 1/2 tsp fenugreek seeds and a pinch of Ceylon cinnamon in water; drink warm in the morning on an empty stomach to enhance insulin sensitivity and digestive fire. 2) Dietary Cleansing: Emphasize roasted barley (Yava), roasted flaxseeds (Atasi), and warm green moong dal soup to liquefy sluggish Kapha. 3) Active Dinacharya: 40 minutes of brisk morning walking or Surya Namaskar to stimulate pelvic circulation. 4) Strictly eliminate refined white sugar, cold homogenized milk, bakery items, and deep-fried snacks. Note: Classical medicinal formulations (such as Kanchanar Guggulu) require direct diagnosis and prescription from a certified BAMS Vaidya.",
+    "classical_tags": ["PCOS", "PCOD", "Artava Kshaya", "Methi Infusion", "Shatavari", "Insulin Sensitivity", "Ahara-Vihara"],
+    "contraindications": "Do not consume heavy heating spices or undergo vigorous fasting during active heavy menstrual bleeding."
+  },
+  {
+    "id": "faq_prameha_madhumeha_type2_diabetes",
+    "source": "Charaka Samhita Chikitsa Sthana Ch. 6 (Prameha Chikitsa) & Sushruta Samhita",
+    "category": "diet",
+    "title": "Madhumeha / Type-2 Diabetes & Elevated Blood Sugar (Prameha)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "vasanta", "varsha"],
+    "content": "Charaka defines Prameha as a metabolic pathology arising from sedentary lifestyle (Aasya Sukham), excessive sleep (Swapna Sukham), and overconsumption of curd, fresh harvest grains, and sweet dairy. The bodily tissues (Dhatus) become excessively moist and lax (Kleda), and urine turns sweet like honey (Madhumeha). Protocol: 1) Nishamalaki: Equal parts of pure turmeric powder (Haridra) and Indian gooseberry (Amalaki) powder (1 teaspoon twice daily before meals) is the premier classical anti-glycemic shield. 2) Jamun seed powder (Jambu beeja) and fenugreek powder (Methi churna) 1/2 tsp before major meals. 3) Replace polished white rice with roasted barley (Yava), pearl millet (Bajra), or ragi. 4) Minimum 45 minutes of brisk morning walking to burn circulating meda (adipose tissue).",
+    "classical_tags": ["Prameha", "Madhumeha", "Type 2 Diabetes", "Nishamalaki", "Jamun Beeja", "Yava", "Metabolism"],
+    "contraindications": "Monitor blood glucose closely if concurrent allopathic hypoglycemic medications are used to prevent hypoglycemia."
+  },
+  {
+    "id": "faq_grahani_roga_ibs_dysbiosis",
+    "source": "Charaka Samhita Chikitsa Sthana Ch. 15 (Grahani Dosha Chikitsa)",
+    "category": "diet",
+    "title": "Grahani Roga / Irritable Bowel Syndrome (IBS & Leaky Gut)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "varsha", "sharad"],
+    "content": "Grahani is the small intestine and duodenal mucosal seat of Agni. When weakened by irregular eating, emotional stress, or antibiotic abuse, it fails to hold food properly (Pakva-Apakva Mala Pravritti), producing alternating bouts of loose watery stools, undigested food in stool, mucus, and bloating. Classical Gold Standard Protocol: Takra (Medicated Buttermilk) is hailed as 'Amrita on Earth' for Grahani. Churn 1 part fresh organic yogurt with 4 parts pure water, discard the separated butter fat, and blend with roasted cumin powder (Jeera), rock salt (Saindhava), and ginger juice. Drink a glass with lunch. In addition, Bilva (Bael fruit powder - 1/2 tsp) acts as an exceptional intestinal binder and mucosal regenerator.",
+    "classical_tags": ["Grahani", "IBS", "Takra Protocol", "Buttermilk", "Bilva", "Gut Flora", "Mandagni"],
+    "contraindications": "Avoid raw unpeeled vegetables, large green salads, ice water, and heavy unctuous milk during active diarrhea flare-ups."
+  },
+  {
+    "id": "faq_shirashoola_migraine_headache",
+    "source": "Charaka Samhita Siddhi Sthana Ch. 9 & Sushruta Samhita Uttaratantra Ch. 25",
+    "category": "lifestyle",
+    "title": "Ardhavabhedaka / Migraine & Throbbing Temple Headaches",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["all", "sharad", "grishma"],
+    "content": "Ardhavabhedaka (hemicrania / migraine) is characterized by acute paroxysmal throbbing pain on one half of the head, photophobia, eye burning, and nausea, caused by aggravated Vata driving sharp Pitta into the cranial blood vessels (Shira Srotas). Protocol: 1) Shirolepa / Cooling application: Apply a paste of pure sandalwood (Chandana) and vetiver (Usheera) or cooling milk paste on the temples. 2) Nasya: Instill 2 drops of lukewarm cow's ghee (Go-Ghrita) into each nostril during morning hours. 3) Coriander Seed Infusion (Dhaniya Hima): Soak 1 tbsp coriander seeds in a cup of water overnight; strain and drink in the morning to drain vascular cranial heat. 4) Strict sleep hygiene: Avoid irregular fasting and bright screen exposure in dark rooms.",
+    "classical_tags": ["Ardhavabhedaka", "Migraine", "Vata-Pitta Shiroroga", "Nasya", "Go-Ghrita", "Dhaniya Hima"],
+    "contraindications": "If headache is accompanied by sudden numbness of limb, slurred speech, or high fever, seek immediate neurological medical triage."
+  },
+  {
+    "id": "faq_twak_roga_kushtha_acne_eczema",
+    "source": "Charaka Samhita Chikitsa Sthana Ch. 7 (Kushtha Chikitsa)",
+    "category": "lifestyle",
+    "title": "Twak Roga / Inflammatory Skin Disorders (Cystic Acne, Eczema & Psoriasis)",
+    "dosha_affinity": {
+      "vata": "neutral",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "sharad", "varsha"],
+    "content": "All chronic dermatological conditions in Ayurveda originate from the simultaneous impairment of the 4 Dushyas: Twak (skin), Rakta (blood), Mamsa (muscle), and Lasika (lymph), triggered predominantly by burning Pitta and Kapha. Common triggers include incompatible food combinations (Viruddha Ahara like fish with milk, or curd at night). Protocol: 1) Coriander Seed & Neem Water: Soak 1 tbsp crushed coriander seeds overnight; strain and drink in the morning (Dhaniya Hima) to cool fiery Pitta in the blood. 2) Topical Neem & Turmeric Lepa: Mix pure neem leaf powder with a pinch of turmeric and rose water; apply to inflamed acne or plaques for 15 minutes, washing with lukewarm water. 3) Cut all fermented batter, curd at night, red chilies, vinegar, and heavy oily street foods. Note: Classical blood-purifying herbal decoctions (Mahamanjisthadi Kwatha, Khadirarishta) require guidance and prescription from a certified Ayurvedic doctor.",
+    "classical_tags": ["Twak Roga", "Kushtha", "Acne", "Eczema", "Manjistha", "Khadira", "Blood Purification", "Dhaniya Hima"],
+    "contraindications": "Never scratch lesions with sharp nails as it drives fungal and bacterial pathogens into deeper subcutaneous layers."
+  },
+  {
+    "id": "faq_vatarakta_gout_hyperuricemia",
+    "source": "Charaka Samhita Chikitsa Sthana Ch. 29 (Vatarakta Chikitsa)",
+    "category": "diet",
+    "title": "Vatarakta / Gout & Hyperuricemia (Hot Swollen Joint Flare-ups)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["sharad", "grishma", "varsha"],
+    "content": "Vatarakta (gouty arthritis) occurs when vitiated Rakta (toxic heated blood) blocks the circulation of Vata dosha at the small peripheral joints (especially the first metatarsophalangeal joint / great toe), causing burning pain, erythema, extreme tenderness, and uric acid deposition. Protocol: 1) Hydration & Pitta Pacification: Drink 2.5 liters of room-temperature water boiled with coriander seeds and cumin to naturally support renal filtration and flush metabolic heat. 2) Dietary Soothing: Sip fresh Amalaki (Indian gooseberry) juice or water soaked with black raisins (Draksha) to reduce inflammatory acidity. 3) Strictly avoid red meat, alcohol, beer, spinach, tomatoes, and fermented sour foods. 4) Maintain gentle, non-stressful mobility. Note: For clinical management of severe gout flare-ups, consult an Ayurvedic physician.",
+    "classical_tags": ["Vatarakta", "Gout", "Uric Acid", "Guduchi", "Amrita", "Joint Inflammation", "Pitta-Vata", "Hydration"],
+    "contraindications": "Avoid hot violent oil massages or hot sauna treatments over the acutely red, burning gout joint as heat violently aggravates Pitta."
+  },
+  {
+    "id": "faq_sthaulya_medoroga_obesity_metabolic",
+    "source": "Charaka Samhita Sutrasthana Ch. 21 (Ashtaninditiya Adhyaya)",
+    "category": "diet",
+    "title": "Sthaulya / Obesity, Visceral Fat & Metabolic Syndrome (Medoroga)",
+    "dosha_affinity": {
+      "vata": "neutral",
+      "pitta": "neutral",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["vasanta", "all"],
+    "content": "Charaka lists Sthaulya (obesity) among the eight most clinically undesirable physical constitutions (Nindita Purusha). The metabolic channels of adipose tissue (Medovaha Srotas) become obstructed, leading to rapid fat accumulation while deeper tissues (bones, reproductive fluids) starve. Protocol: 1) Morning Scraping Drink (Lekhana): Stir 1 teaspoon of raw unprocessed honey into a cup of lukewarm water (never hot!) with 5 drops of lemon juice on an empty stomach; this activates lipolysis and clears lymphatic Ama. 2) Dietary Staples: Introduce roasted barley (Yava), green moong soup, and horse gram soup (Kulatta Yusha) as primary grain and pulse staples to scrape sluggish adipose tissue (Medas). 3) Active Dinacharya: Minimum 45 minutes of brisk morning walking or yoga before breakfast. 4) Strictly eliminate day sleeping (Diwaswapna), which is the number one cause of metabolic Kapha stagnation. Note: Classical metabolic compounds (like Triphala Guggulu) should be taken only after clinical consultation with a BAMS doctor.",
+    "classical_tags": ["Sthaulya", "Obesity", "Weight Loss", "Lekhana", "Honey Water", "Medoroga", "Kapha Pacifying", "Barley Yava"],
+    "contraindications": "Never heat honey above 40 degrees Celsius or mix honey into boiling liquids, as classical texts warn heated honey creates toxic Ama."
+  },
+  {
+    "id": "faq_shwasa_tamaka_bronchial_asthma",
+    "source": "Charaka Samhita Chikitsa Sthana Ch. 17 (Hikka-Shwasa Chikitsa)",
+    "category": "lifestyle",
+    "title": "Tamaka Shwasa / Bronchial Asthma & Wheezing Allergy",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["varsha", "shishira", "hemanta"],
+    "content": "Tamaka Shwasa (bronchial asthma) is a severe Vata-Kapha disorder where dense bronchial Kapha blocks the movement of Prana Vayu in the chest. Patients experience nocturnal wheezing, chest tightness, and gasping for breath, relieved only when sitting upright. Protocol: 1) Chest Snehana-Swedana: Gentle chest massage with warm mustard oil mixed with rock salt (Saindhava Lavana), followed by dry warm towel fomentation to liquefy sticky mucosal plugs. 2) Sitopaladi Churna: Mix 1/2 tsp Sitopaladi with 1/2 tsp raw honey and a pinch of Pippali; lick slowly to soothe bronchial spasms and open airways. 3) Sip warm ginger-tulsi-clove water. 4) Avoid cold refrigerated dairy, bananas at night, and exposure to cold wind or damp mold.",
+    "classical_tags": ["Tamaka Shwasa", "Asthma", "Sitopaladi", "Pranavaha Srotas", "Mustard Oil Swedana", "Wheezing"],
+    "contraindications": "During an acute severe cyanotic status asthmaticus attack, immediately access emergency bronchodilator medical care."
+  },
+  {
+    "id": "faq_raktachapa_hypertension_stress_heart",
+    "source": "Charaka Samhita Chikitsa Sthana Ch. 26 & Ashtanga Hridaya",
+    "category": "lifestyle",
+    "title": "Uccha Raktachapa / Essential Hypertension & Stress Arterial Strain",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["all", "grishma", "sharad"],
+    "content": "High blood pressure (Uccha Raktachapa) in Ayurveda represents systemic Vata-Pitta aggravation: hyperactive Vyana Vayu constricts the vascular walls (Sirapratichaya) while fiery Pitta overheats the circulating blood (Rakta Dhatu). Protocol: 1) Sarpagandha & Brahmi: Proven botanical calming agents that gently reduce peripheral vascular resistance and central nervous sympathetic tension without orthostatic dizziness. 2) Arjuna Bark Milk (Arjuna Ksheerapaka): Drink morning and evening to maintain flexible arterial compliance and nourish the cardiac muscle. 3) Daily Pranayama: 10 minutes of Sheetali (cooling breath) and Anulom-Vilom (alternate nostril breathing) to reset autonomic tone. 4) Reduce dietary table salt, replacing with a small pinch of mineral-rich Saindhava Lavana (rock salt).",
+    "classical_tags": ["Raktachapa", "Hypertension", "Blood Pressure", "Arjuna", "Brahmi", "Cardiovascular", "Sheetali"],
+    "contraindications": "Do not abruptly discontinue prescribed antihypertensive allopathic medications; taper only under the supervision of a licensed physician."
+  },
+  {
+    "id": "faq_aruchi_loss_of_appetite_taste",
+    "source": "Charaka Samhita Chikitsa Sthana Ch. 26 (Aruchi Chikitsa) & Madhava Nidana",
+    "category": "diet",
+    "title": "Aruchi / Loss of Appetite, Anorexia & Metallic Taste",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all"],
+    "content": "Aruchi (dysgeusia / lack of desire for food even when theoretically hungry) is caused by the accumulation of stagnant toxins (Ama) and Kapha on the tongue's sensory papillae (Bodhaka Kapha) and heart center. Food tastes metallic, bland, or repulsive. Protocol: 1) Dadima Svarasa (Fresh Pomegranate Juice): Sip fresh sweet-sour pomegranate juice seasoned with a pinch of rock salt and roasted cumin; pomegranates possess natural Hridya and Ruchya (taste-restoring) properties. 2) Herbal Mouth Rinsing (Kavala): Gargle warm water infused with triphala or rock salt and lime juice to cleanse the tongue coating. 3) Chew small pieces of dry ginger (Shunthi) and rock candy (Mishri) before meals to awaken salivary receptors.",
+    "classical_tags": ["Aruchi", "Loss of Appetite", "Pomegranate Juice", "Ruchya", "Bodhaka Kapha", "Taste Reset"],
+    "contraindications": "Never force-feed large heavy meals during acute Aruchi; allow Agni to kindle naturally with light rice soups (Manda/Peya)."
+  }
+]

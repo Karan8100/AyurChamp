@@ -1,0 +1,107 @@
+[
+  {
+    "id": "seasons_solstice_adana_visarga_kala",
+    "source": "Charaka Samhita, Sutrasthana Ch. 6 (Tasyashitiya Adhyaya), Verse 4-8",
+    "category": "lifestyle",
+    "title": "The Dual Solstices: Adana Kala vs. Visarga Kala",
+    "dosha_affinity": {
+      "vata": "balances",
+      "pitta": "balances",
+      "kapha": "balances"
+    },
+    "season_affinity": ["all"],
+    "content": "The annual cycle is divided into two 6-month solstices: 1) Adana Kala (Northern Solstice / Uttarayana): Comprising Shishira, Vasanta, and Grishma. The sun moves northward; intense solar rays and dry winds suck moisture, unctuousness, and physical stamina from the earth and human beings. Physical biological strength is naturally minimum. 2) Visarga Kala (Southern Solstice / Dakshinayana): Comprising Varsha, Sharad, and Hemanta. The sun moves southward; cool lunar rays and rainfall impart moisture, coldness, and unctuousness. Human strength progressively increases, reaching its zenith in Hemanta (winter). Diet and exertion must adapt to these planetary bio-energy shifts.",
+    "classical_tags": ["Adana Kala", "Visarga Kala", "Uttarayana", "Dakshinayana", "Solar-Lunar Rhythm"],
+    "contraindications": "Do not attempt extreme fasting or exhaustive physical labor during late Adana Kala (Grishma/Summer)."
+  },
+  {
+    "id": "seasons_varsha_ritu_monsoon",
+    "source": "Charaka Samhita, Sutrasthana Ch. 6, Verse 33-41 & Ashtanga Hridaya Sutrasthana Ch. 3",
+    "category": "lifestyle",
+    "title": "Monsoon Regimen: Varsha Ritu (Mid-July to Mid-September)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "balances",
+      "kapha": "balances"
+    },
+    "season_affinity": ["varsha"],
+    "content": "In Varsha Ritu (monsoon), environmental dampness, clouded skies, and acidic rainwater severely weaken digestive Agni. Simultaneously, Vata dosha, which accumulated in summer, undergoes acute aggravation (Prakopa). Regimen: Favor warm, freshly prepared, unctuous foods made with aged barley, aged wheat, and aged rice. Consume green gram (Mudga) soups tempered with ginger, black pepper, and cow's ghee. Drink boiled, warm water (Ushnodaka) infused with ginger. Add small quantities of honey to foods to counter water acidity. Avoid daytime sleeping, cold river baths, raw uncooked leafy salads, and open river swimming.",
+    "classical_tags": ["Varsha Ritu", "Monsoon Regimen", "Vata Prakopa", "Mandagni", "Aged Grains"],
+    "contraindications": "Avoid eating heavy, cold, unctuous sweets, raw salads, drinking unboiled water, and sleeping on damp floors."
+  },
+  {
+    "id": "seasons_sharad_ritu_autumn",
+    "source": "Charaka Samhita, Sutrasthana Ch. 6, Verse 41-48",
+    "category": "lifestyle",
+    "title": "Autumn Regimen: Sharad Ritu (Mid-September to Mid-November)",
+    "dosha_affinity": {
+      "vata": "balances",
+      "pitta": "pacifies",
+      "kapha": "balances"
+    },
+    "season_affinity": ["sharad"],
+    "content": "In Sharad Ritu (autumn), after the rain clouds clear, the body suddenly undergoes intense solar heating. Pitta dosha, which had accumulated during the rainy season, undergoes sudden, fierce aggravation (Prakopa). Regimen: Favor sweet (Madhura), bitter (Tikta), and astringent (Kashaya) tastes. Consume cow's ghee medicated with bitter herbs (Tikta Ghrita), aged Shali rice, split yellow moong, and bitter vegetables (parwal, bitter gourd). Expose the body to soothing nocturnal moonbeams (Chandrika). Drink Hansodaka (clean water purified by daytime solar rays and cooled by night moonlight). Classical therapeutic purgation (Virechana) is indicated.",
+    "classical_tags": ["Sharad Ritu", "Autumn Regimen", "Pitta Prakopa", "Tikta Ghrita", "Hansodaka"],
+    "contraindications": "Strictly avoid curd (Dadhi), mustard oil, heavy red meats, direct midday sun exposure, alcoholic beverages, and spicy pungent chilies."
+  },
+  {
+    "id": "seasons_hemanta_shishira_winter",
+    "source": "Charaka Samhita, Sutrasthana Ch. 6, Verse 9-18",
+    "category": "lifestyle",
+    "title": "Winter Regimen: Hemanta & Shishira Ritu (Mid-November to Mid-March)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "balances",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["hemanta", "shishira"],
+    "content": "During cold winter, environmental cold contracts peripheral blood vessels, trapping and concentrating internal body heat. Consequently, the digestive fire (Jatharagni) becomes exceptionally intense and powerful (Balavan Agni). If not fed substantial food, this fierce fire begins to consume bodily tissues (Dhatus), aggravating Vata. Regimen: Winter is the only season where heavy, nourishing, unctuous foods are strongly encouraged: rich milk preparations, cow's ghee, sesame oil, black gram (Urad), new grain preparations, and warm nut laddoos. Daily full-body warm sesame oil massage (Abhyanga), vigorous exercise, and warm water baths are mandatory.",
+    "classical_tags": ["Hemanta", "Shishira", "Winter Regimen", "Strong Agni", "Nourishing Diet"],
+    "contraindications": "Avoid light, dry, air-causing diets, fasting, skipping breakfast, cold drinks, and exposure to piercing cold winds."
+  },
+  {
+    "id": "seasons_vasanta_ritu_spring",
+    "source": "Charaka Samhita, Sutrasthana Ch. 6, Verse 22-30",
+    "category": "lifestyle",
+    "title": "Spring Regimen: Vasanta Ritu (Mid-March to Mid-May)",
+    "dosha_affinity": {
+      "vata": "balances",
+      "pitta": "balances",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["vasanta"],
+    "content": "In Vasanta (spring), the intense warm rays of the vernal sun liquefy the heavy Kapha dosha that accumulated in the tissues during winter. This melted Kapha floods the stomach and respiratory channels, severely dampening digestive Agni and causing allergies, colds, coughs, and profound heaviness. Regimen: Favor bitter (Tikta), pungent (Katu), and astringent (Kashaya) tastes. Consume aged barley (Yava), roasted chickpeas, honey, bitter vegetables, and ginger tea. Practice dry powder body scrubbing (Garshana), vigorous brisk exercise, and therapeutic vomiting (Vamana). Daytime sleeping (Divaswapna) is totally forbidden.",
+    "classical_tags": ["Vasanta Ritu", "Spring Regimen", "Kapha Liquefaction", "Garshana", "Barley Diet"],
+    "contraindications": "Strictly avoid heavy, cold, sweet, unctuous foods, dairy ice creams, curd, oily fried foods, and sleeping during the day."
+  },
+  {
+    "id": "seasons_grishma_ritu_summer",
+    "source": "Charaka Samhita, Sutrasthana Ch. 6, Verse 27-32",
+    "category": "lifestyle",
+    "title": "Summer Regimen: Grishma Ritu (Mid-May to Mid-July)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "balances"
+    },
+    "season_affinity": ["grishma"],
+    "content": "In Grishma (summer), the blazing sun relentlessly draws moisture from the earth. Water dries up, Kapha decreases, and dry Vata begins to accumulate (Chaya). Human biological strength is at its annual low. Regimen: Favor sweet (Madhura), cool (Sheeta), liquid (Drava), and gently unctuous meals. Enjoy cooling sattu (roasted barley water sweetened with mishri), pomegranate juice, fresh coconut water, and rice cooked with milk. Daytime naps in a cool, fragrant room are specifically permitted in summer only. Avoid strenuous exhausting workouts; exercise should be gentle and restricted to early mornings.",
+    "classical_tags": ["Grishma Ritu", "Summer Regimen", "Vata Accumulation", "Cooling Diet", "Low Strength"],
+    "contraindications": "Avoid pungent spices, salty snacks, sour pickles, heavy alcohol, dry roasted snacks, and intense midday sun workouts."
+  },
+  {
+    "id": "seasons_ritu_sandhi_transition_protocol",
+    "source": "Ashtanga Hridaya, Sutrasthana Ch. 3, Verse 58-59",
+    "category": "lifestyle",
+    "title": "The 14-Day Seasonal Junction: Ritu Sandhi Protocol",
+    "dosha_affinity": {
+      "vata": "balances",
+      "pitta": "balances",
+      "kapha": "balances"
+    },
+    "season_affinity": ["all"],
+    "content": "Ritu Sandhi is defined as the 14-day inter-seasonal junction: the last 7 days of the departing season and the first 7 days of the incoming season. Vagbhata mandates the rule of 'Padamshika Krama' (gradual quarter-by-quarter tapering): the diet and lifestyle of the previous season should be phased out in 1/4th fractions over seven days, while the practices of the incoming season are introduced in 1/4th fractions. Abrupt cessation of the old diet or sudden adoption of the new diet triggers sudden digestive shock (Apathya-Nimitta Roga), viral fevers, seasonal allergies, and immune collapse.",
+    "classical_tags": ["Ritu Sandhi", "Seasonal Junction", "Padamshika Krama", "Preventive Detox", "Immune Transition"],
+    "contraindications": "Never make abrupt 180-degree switches in diet, clothing, or exercise routine in a single day during seasonal shifts."
+  }
+]

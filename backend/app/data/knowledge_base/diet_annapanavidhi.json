@@ -1,0 +1,290 @@
+[
+  {
+    "id": "diet_grain_shali_rice",
+    "source": "Charaka Samhita, Sutrasthana Ch. 27 (Annapanavidhi Adhyaya), Verse 8-12",
+    "category": "diet",
+    "title": "Aged Shali Rice (Raktashali & Shashtika)",
+    "dosha_affinity": {
+      "vata": "balances",
+      "pitta": "pacifies",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["all", "varsha", "sharad", "grishma"],
+    "gunas": ["Laghu (Light)", "Snigdha (Unctuous)", "Madhura (Sweet)"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Aged Shali rice, particularly Raktashali (red rice) and Shashtika (sixty-day rice) stored for over one year, is declared by Charaka as the foremost among grains (Shuka Dhanya). It is Madhura (sweet) in taste and post-digestive effect (Vipaka), Sheeta (cooling) in potency (Virya), and Laghu (light to digest). It nourishes all bodily tissues (Dhatus) without clogging micro-circulatory channels (Srotas), making it the supreme staple grain for individuals with Pitta and Vata dominance, convalescents, and during summer (Grishma) and monsoon (Varsha).",
+    "classical_tags": ["Shali", "Laghu", "Pitta-Pacifying", "Tridoshic", "Dhatuvardhaka"],
+    "contraindications": "Freshly harvested un-aged rice (Nava Dhanya) is heavy (Guru) and Abhishyandi (channel-blocking); it aggravates Kapha and creates sluggish digestion (Mandagni)."
+  },
+  {
+    "id": "diet_pulse_mudga_moong",
+    "source": "Charaka Samhita, Sutrasthana Ch. 27, Verse 23-25 & Ashtanga Hridaya Sutrasthana Ch. 6",
+    "category": "diet",
+    "title": "Yellow Moong Dal (Mudga / Green Gram Split)",
+    "dosha_affinity": {
+      "vata": "neutral",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "varsha", "vasanta", "sharad"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Kashaya-Madhura (Astringent-Sweet)"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Katu (Pungent)",
+    "content": "Mudga (Phaseolus radiatus / Yellow Moong) is the king of pulses (Shami Dhanya) in classical Ayurveda. It possesses Kashaya (astringent) and Madhura (sweet) taste, Sheeta (cooling) potency, and Katu Vipaka. Unlike heavy pulses such as black gram (Masha) and chickpeas (Chanaka) which cause flatulence and sluggishness, Mudga is exceptionally light (Laghu) to digest and does not produce metabolic endotoxins (Ama). Cooked with cumin, ginger, and cow's ghee, it pacifies Pitta and Kapha, gently kindles Jatharagni, and serves as the primary protein source for detox and daily nourishment.",
+    "classical_tags": ["Mudga", "Laghu", "Pitta-Kapha Pacifying", "Agnideepana", "Pathya"],
+    "contraindications": "Avoid eating dry, unspiced roasted moong without unctuous ghee if suffering from extreme Vata dryness or constipation."
+  },
+  {
+    "id": "diet_fat_goghrita_ghee",
+    "source": "Charaka Samhita, Sutrasthana Ch. 27, Verse 231-233 & Ashtanga Hridaya Sutrasthana Ch. 5",
+    "category": "diet",
+    "title": "Aged Cow's Ghee (Goghrita / Clarified Butter)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["all", "sharad", "varsha", "grishma"],
+    "gunas": ["Snigdha (Unctuous)", "Guru (Heavy)", "Mrudu (Soft)"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Goghrita (clarified butter prepared from indigenous cow's milk) is praised as the supreme unctuous substance (Sneha Dravya). Charaka declares: 'Samskarasya Anuvartana' — ghee possesses the unique property of absorbing the therapeutic virtues of herbs cooked into it without losing its own innate qualities. It pacifies Pitta and Vata, nourishes semen, reproductive tissues (Shukra), and cellular immunity (Ojas), lubricates internal mucosa, enhances memory (Smriti) and intellect (Dhi), and kindles digestive fire (Deepana) without producing internal heat or acidity.",
+    "classical_tags": ["Goghrita", "Ojas", "Pitta-Vata Pacifying", "Samskara", "Rasayana"],
+    "contraindications": "Contraindicated during acute Ama states (undigested toxic coated tongue), active fever (Taruna Jwara), and severe Kapha respiratory congestion."
+  },
+  {
+    "id": "diet_fat_tila_taila_sesame",
+    "source": "Charaka Samhita, Sutrasthana Ch. 27, Verse 286-288",
+    "category": "diet",
+    "title": "Cold-Pressed Sesame Oil (Tila Taila)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "aggravates",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["hemanta", "shishira", "varsha"],
+    "gunas": ["Snigdha (Unctuous)", "Guru (Heavy)", "Sukshma (Subtle penetrating)"],
+    "virya": "Ushna (Warming)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Tila Taila (cold-pressed unrefined sesame seed oil) is the foremost of all plant oils for pacifying Vata dosha. Charaka states: 'Tailam Vata-haranam Shreshtham' (sesame oil is the paramount remedy for subduing Vata). Because of its Ushna (warm) potency, penetrating depth (Sukshma Guna), and Madhura-Tikta-Kashaya undertones, it grounds nervous restlessness, relieves joint dryness and stiffness, improves skin luster, and nourishes the bone marrow (Majja Dhatu). It is ideal for internal cooking during cold winter (Hemanta/Shishira) and rainy seasons (Varsha).",
+    "classical_tags": ["Tila Taila", "Vata-Shreshtham", "Sukshma", "Nourishing", "Winter Diet"],
+    "contraindications": "Contraindicated in severe Pitta disorders, active bleeding (Raktapitta), burning sensations, and inflammatory skin conditions."
+  },
+  {
+    "id": "diet_dairy_dadhi_curd_rules",
+    "source": "Charaka Samhita, Sutrasthana Ch. 27, Verse 225-228",
+    "category": "diet",
+    "title": "Classical Curd Consumption Protocol (Dadhi Niyama)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "aggravates",
+      "kapha": "aggravates"
+    },
+    "season_affinity": ["shishira", "hemanta"],
+    "gunas": ["Guru (Heavy)", "Snigdha (Oily)", "Abhishyandi (Channel-Clogging)"],
+    "virya": "Ushna (Heating)",
+    "vipaka": "Amla (Sour)",
+    "content": "Dadhi (curd/yogurt) is sweet-sour, Ushna (hot) in potency, heavy (Guru) to digest, and Abhishyandi (clogs bodily channels and micro-capillaries). Charaka lays down mandatory clinical prohibitions: 1) Never consume curd at night ('Na Naktam Dadhi Bhunjita'); eating curd at night obstructs bodily channels, exacerbates Kapha and Pitta, and causes skin disorders and fever. 2) Never heat curd directly. 3) Do not consume curd without adding green gram soup (Mudga Yusha), bee honey (Madhu), ghee, sugar (Sarkara), or amla (Amalaki). 4) Never eat curd in autumn (Sharad), summer (Grishma), or spring (Vasanta).",
+    "classical_tags": ["Dadhi", "Abhishyandi", "Curd At Night Prohibition", "Pitta-Aggravating", "Viruddha"],
+    "contraindications": "Strictly prohibited at night, during Pitta aggravation, fever, jaundice (Kamala), and chronic skin disorders (Kushta)."
+  },
+  {
+    "id": "diet_vegetable_alabu_bottle_gourd",
+    "source": "Bhavaprakasha Nighantu, Shaka Varga, Verse 52-54",
+    "category": "diet",
+    "title": "Bottle Gourd / Lauki (Alabu / Tumbi)",
+    "dosha_affinity": {
+      "vata": "neutral",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["grishma", "sharad", "varsha"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Hima (Cold)"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Alabu (Lagenaria siceraria / Bottle Gourd / Lauki) is sweet in taste, cooling (Hima Virya), light to digest (Laghu), and heart-nourishing (Hridya). It naturally cools internal systemic inflammation, soothes urinary burning, balances Pitta dosha, and supports hydration without generating Kapha congestion. Cooked fresh with cumin seeds, fresh cilantro, and a small quantity of cow's ghee, it is one of the safest everyday vegetables for individuals with acid dyspepsia, hypertension, and heat-induced exhaustion.",
+    "classical_tags": ["Alabu", "Lauki", "Pitta-Pacifying", "Hridya", "Cooling Diet"],
+    "contraindications": "Never consume bitter-tasting bottle gourd (Tikta Alabu), as bitter gourd contains toxic cucurbitacins which act as a potent emetic poison."
+  },
+  {
+    "id": "diet_vegetable_karavellaka_bitter_melon",
+    "source": "Bhavaprakasha Nighantu, Shaka Varga, Verse 65-67",
+    "category": "diet",
+    "title": "Bitter Melon / Karela (Karavellaka)",
+    "dosha_affinity": {
+      "vata": "aggravates",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["vasanta", "sharad", "varsha"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Tikta (Bitter)"],
+    "virya": "Ushna (Mildly Warming)",
+    "vipaka": "Katu (Pungent)",
+    "content": "Karavellaka (Momordica charantia / Bitter Melon / Karela) is predominantly Tikta (bitter) and Kashaya (astringent) in taste, Laghu (light), and dry (Ruksha). It is renowned as the foremost blood purifier (Rakta Shodhaka) and metabolic regulator (Prameha-hara). It scrapes away unctuous Kapha, clears liver toxicity, stimulates bile flow, controls blood glucose spikes, and cleanses the blood of inflammatory Pitta heat. Because of its intense bitter taste and drying qualities, it pacifies Kapha and Pitta while slightly elevating Vata.",
+    "classical_tags": ["Karavellaka", "Karela", "Tikta Rasa", "Kapha-Pitta Pacifying", "Blood Purifier"],
+    "contraindications": "Contraindicated in severe emaciation, acute Vata dryness, tremors, and during pregnancy in large quantities."
+  },
+  {
+    "id": "diet_fruit_dadima_pomegranate",
+    "source": "Charaka Samhita, Sutrasthana Ch. 27, Verse 141-143 & Ashtanga Hridaya",
+    "category": "diet",
+    "title": "Pomegranate (Dadima / Sweet-Astringent Variety)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "sharad", "grishma", "varsha"],
+    "gunas": ["Laghu (Light)", "Snigdha (Unctuous)", "Madhura-Kashaya (Sweet-Astringent)"],
+    "virya": "Anushna (Neither too hot nor cold / Neutral)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Dadima (Punica granatum / Pomegranate) is celebrated as Tridoshahara (balancing all three doshas simultaneously). Charaka specifically extols the sweet variety (Madhura Dadima): it kindles the digestive fire (Hridya Deepana), stimulates taste perception (Rochana), relieves thirst, halts loose bowels (Grahi), and pacifies burning sensations in the stomach without aggravating Pitta or Vata. It is one of the very few fruits explicitly recommended for daily consumption in both health and digestive convalescence.",
+    "classical_tags": ["Dadima", "Tridoshic", "Hridya", "Grahi", "Deepana Fruit"],
+    "contraindications": "Extremely sour, unripened wild pomegranates (Amla Dadima) elevate Pitta and Rakta (blood)."
+  },
+  {
+    "id": "diet_spice_shunthi_dry_ginger",
+    "source": "Bhavaprakasha Nighantu, Haritakyadi Varga, Verse 44-48",
+    "category": "diet",
+    "title": "Dry Ginger (Shunthi / Vishwabhesaja - Universal Medicine)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["hemanta", "shishira", "varsha", "vasanta"],
+    "gunas": ["Laghu (Light)", "Snigdha (Unctuous)", "Tikshna (Sharp)"],
+    "virya": "Ushna (Heating)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Shunthi (Zingiber officinale / Dry Ginger powder) is titled 'Vishwa-bheshaja' (the universal medicine). Unlike fresh ginger (Ardraka) which has Katu (pungent) post-digestive effect and can irritate Pitta, dry ginger converts into Madhura (sweet) Vipaka upon digestion and possesses an unctuous (Snigdha) nature. Therefore, it powerfully kindles digestive Agni, digests metabolic toxins (Ama-Pachana), and stops abdominal bloating without creating severe hyper-acidity or burning sensations, making it the supreme spice for Vata and Kapha.",
+    "classical_tags": ["Shunthi", "Ama-Pachana", "Deepana", "Vata-Kapha Pacifying", "Universal Spice"],
+    "contraindications": "Use with caution in active gastric ulcers, internal hemorrhages, and severe heat-stroke."
+  },
+  {
+    "id": "diet_spice_jeera_dhaniya_saunf_ccf",
+    "source": "Bhavaprakasha Nighantu & Classical Dravyaguna manuals",
+    "category": "diet",
+    "title": "Tridoshic Digestive Triad: Cumin, Coriander, and Fennel (CCF)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "grishma", "sharad", "varsha"],
+    "gunas": ["Laghu (Light)", "Deepana (Appetizing)", "Grahi (Absorbing)"],
+    "virya": "Sheeta-Ushna Balanced",
+    "vipaka": "Madhura (Sweet)",
+    "content": "The balanced decoction of Cumin (Jeera), Coriander (Dhaniya), and Fennel (Saunf), commonly known in clinical Ayurveda as CCF infusion, represents the ultimate safe tridoshic digestive regulator. Jeera kindles sluggish Agni and eliminates gas; Dhaniya is cooling (Sheeta Virya) and clears urinary and hepatic inflammation; Saunf calms gut spasms and freshens breath. Steeped together in warm water, this triad cleanses bodily channels (Srotoshodhana), reduces acid reflux, and optimizes digestive absorption for all constitutional types.",
+    "classical_tags": ["CCF Tea", "Jeera", "Dhaniya", "Saunf", "Tridoshic Digestant"],
+    "contraindications": "None when taken as a mild infusion in moderate dietary amounts."
+  },
+  {
+    "id": "diet_viruddha_ahara_incompatible_combinations",
+    "source": "Charaka Samhita, Sutrasthana Ch. 26 (Atreyabhadrakapyiya), Verse 81-104",
+    "category": "diet",
+    "title": "Classical Incompatible Food Combinations (Viruddha Ahara)",
+    "dosha_affinity": {
+      "vata": "aggravates",
+      "pitta": "aggravates",
+      "kapha": "aggravates"
+    },
+    "season_affinity": ["all"],
+    "gunas": ["Visha-Sadrisha (Poison-Like Reaction)", "Abhishyandi"],
+    "virya": "Conflicting",
+    "vipaka": "Conflicting",
+    "content": "Charaka details 18 types of Viruddha Ahara (incompatible foods) which trigger systemic toxin formation (Gara Visha), destroy gut flora, and cause chronic auto-immune and skin disorders: 1) Heated Honey: Honey must never be cooked or combined with boiling liquids; heating honey causes its unctuous molecules to become toxic and insoluble. 2) Honey and Cow's Ghee in equal proportions by weight: equal ratio causes toxic crystallization; unequal ratio is wholesome. 3) Milk with Fish or Sour Citrus Fruits: milk has Sheeta Virya while fish/citrus have Ushna Virya; this conflicting combination vitiates the blood (Rakta Dushti) and causes skin conditions. 4) Melons with any other food: melons must be consumed entirely alone due to rapid transit time.",
+    "classical_tags": ["Viruddha Ahara", "Heated Honey", "Milk And Fish", "Food Incompatibilities", "Ama Toxic"],
+    "contraindications": "Strictly prohibited for all constitutional types under all conditions."
+  },
+  {
+    "id": "diet_takra_buttermilk_nectar_protocol",
+    "source": "Bhavaprakasha Nighantu, Dugdha Varga & Charaka Samhita Chikitsa Sthana Ch. 15",
+    "category": "diet",
+    "title": "Takra Vidhi (Classical Medicated Buttermilk - The Elixir of Earth)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "varsha", "grishma", "sharad"],
+    "gunas": ["Laghu (Light)", "Kashaya-Amla-Madhura", "Deepana (Kindles Agni)", "Grahi (Binds Stool)"],
+    "virya": "Ushna (Mildly Heating)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Classical scriptures declare: 'He who drinks Takra daily maintains vibrant vitality, and imbalances pacified by Takra rarely recur; what nectar is to the gods in heaven, Takra is to mortals on earth.' Classical preparation method: Churn 1 part fresh cow's curd with 4 parts clean water, completely separating and removing the floating butterfat (Sneha-Rahita Takra). Season with roasted cumin powder (Jeera), rock salt (Saindhava), and fresh curry leaves. Unlike heavy mucus-forming curd, pure Takra is light (Laghu), kindles sluggish Jatharagni, cleanses blocked micro-channels, supports relief in hemorrhoids (Arsha), and balances chronic IBS and malabsorption (Grahani).",
+    "classical_tags": ["Takra", "Buttermilk", "Amrita", "Grahani", "Digestive Elixir", "Tridoshic"],
+    "contraindications": "Avoid Takra during acute burning Pitta hemorrhage, severe trauma, or acute chest inflammatory states."
+  },
+  {
+    "id": "diet_go_ghrita_cow_ghee_science",
+    "source": "Charaka Samhita Sutrasthana Ch. 27, Verse 231-233 & Ashtanga Hridaya",
+    "category": "diet",
+    "title": "Cow's Ghee / Go-Ghrita (The Supreme Biological Unctuous Medium)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "neutral_in_moderation"
+    },
+    "season_affinity": ["all", "sharad", "grishma"],
+    "gunas": ["Guru (Heavy)", "Snigdha (Unctuous)", "Madhura (Sweet)", "Mrudu (Soft)"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Charaka declares Go-Ghrita (indigenous cow's clarified butter) as supreme among all culinary fats: 'Smriti-Buddhi-Agni-Shukra-Ojas-Vardhanam' — it enhances memory (Smriti), intellect (Buddhi), digestive fire (Agni), reproductive tissue (Shukra), and cellular immunity (Ojas). Uniquely, cow's ghee kindles digestive Agni without aggravating fiery Pitta, acting as an extraordinary bio-enhancer (Yogavahi) that carries herbal bio-actives deep into all seven Dhatus. A teaspoon of warm melted cow's ghee taken with the first bite of meals lubricates gut mucosa, prevents dry constipation, and calms Vata nervous agitation.",
+    "classical_tags": ["Go-Ghrita", "Cow Ghee", "Ojas", "Yogavahi", "Medhya", "Digestive Fire", "Pitta Pacifier"],
+    "contraindications": "Avoid large unctuous quantities during acute fever (Ama Jwara), severe jaundice, acute diarrhea, or heavy liver stagnation."
+  },
+  {
+    "id": "diet_ushnodaka_warm_water_rules",
+    "source": "Bhavaprakasha Nighantu, Vari Varga & Ashtanga Hridaya Sutrasthana Ch. 5",
+    "category": "diet",
+    "title": "Ushnodaka (Boiled Warm Water - Classical Hydration Protocol)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "varsha", "hemanta", "shishira"],
+    "gunas": ["Laghu (Light)", "Deepana (Kindles Agni)", "Pachana (Clears Ama)", "Basti-Shodhaka"],
+    "virya": "Ushna (Heating)",
+    "vipaka": "Laghu (Rapid Absorption)",
+    "content": "Water boiled until reduced by one-fourth, one-half, or three-fourths becomes 'Ushnodaka'—fundamentally transformed in physical density from heavy (Guru) to feather-light (Laghu) and rapidly absorbable. Classical Jalapana Timing Rules: 1) Water drunk before meals dampens Agni, causing emaciation (Krisha). 2) Small sips of warm water during meals acts as nectar (Amrita), lubricating the food bolus. 3) Water drunk immediately after meals extinguishes Agni and causes toxic fat accumulation (Sthaulya). Ice-cold refrigerated water is strictly forbidden as it shocks gastric enzymes and creates sticky Ama.",
+    "classical_tags": ["Ushnodaka", "Warm Water", "Jalapana Timing", "Deepana", "Ama Cleansing", "Metabolic Hydration"],
+    "contraindications": "In acute alcohol intoxication, severe heat stroke, or bleeding disorders, boil water and allow it to cool to room temperature before sipping."
+  },
+  {
+    "id": "diet_madhu_honey_sacred_guidelines",
+    "source": "Charaka Samhita Sutrasthana Ch. 27 & Sushruta Samhita Sutrasthana Ch. 45",
+    "category": "diet",
+    "title": "Madhu (Raw Honey / The Scraping Rejuvenator)",
+    "dosha_affinity": {
+      "vata": "neutral",
+      "pitta": "neutral",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["vasanta", "all"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Kashaya-Madhura (Astringent-Sweet)", "Lekhana (Scraping)"],
+    "virya": "Sheeta (Cooling) / Ushna in certain therapeutic contexts",
+    "vipaka": "Katu (Pungent)",
+    "content": "Madhu (raw bee honey) is the only natural sweet substance that pacifies Kapha dosha, owing to its drying (Ruksha) and scraping (Lekhana) properties. It acts as an exceptional Yogavahi (carrier agent), driving herbs into deep microscopic channels. Cardinal Classical Warnings: 1) Never heat honey above body temperature (40°C) or cook with it; Charaka explicitly warns that heated honey transforms into a toxic, stubborn Ama called 'Amavisha' that adheres to intestinal linings. 2) Never consume honey and cow's ghee in equal weights (Sama Matra). 3) Dissolve only in room temperature or comfortably lukewarm liquids.",
+    "classical_tags": ["Madhu", "Honey", "Lekhana", "Heated Honey Warning", "Yogavahi", "Kapha Pacifier"],
+    "contraindications": "Strictly contraindicated in boiling hot liquids, during hot midday summer heat, or in equal proportions with ghee."
+  },
+  {
+    "id": "diet_trikatu_three_pungents_deepana",
+    "source": "Charaka Samhita Sutrasthana Ch. 4 & Sharngadhara Samhita",
+    "category": "diet",
+    "title": "Trikatu (The Three Fiery Pungents: Shunthi, Maricha, Pippali)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "aggravates_if_excess",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["hemanta", "shishira", "varsha", "vasanta"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Tikshna (Penetrating)", "Katu (Pungent)"],
+    "virya": "Ushna (Heating)",
+    "vipaka": "Katu (Pungent)",
+    "content": "Trikatu is the premier triad of spicy digestive stimulants, consisting of equal parts Dry Ginger (Shunthi), Black Pepper (Maricha), and Long Pepper (Pippali). It powerfully kindles hypo-active metabolic fire (Mandagni), incinerates sticky metabolic sludge (Ama), breaks down congested respiratory mucus, and enhances bio-availability of ingested nutrients and herbal compounds. Classical intake: 1/4 to 1/2 teaspoon mixed with 1 teaspoon of raw honey taken before meals.",
+    "classical_tags": ["Trikatu", "Shunthi", "Maricha", "Pippali", "Deepana", "Ama-Nashana", "Metabolism Kindler"],
+    "contraindications": "Contraindicated in acute burning acid reflux (Amlapitta), bleeding hemorrhoids, active gastric ulcers, and severe Pitta heat."
+  }
+]

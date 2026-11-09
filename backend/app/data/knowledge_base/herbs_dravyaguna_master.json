@@ -1,0 +1,452 @@
+[
+  {
+    "id": "herb_ashwagandha_withania_somnifera",
+    "source": "Bhavaprakasha Nighantu, Haritakyadi Varga, Verse 189-191 & Charaka Samhita Sutrasthana Ch. 4",
+    "category": "herb",
+    "title": "Ashwagandha (Withania somnifera / Indian Ginseng)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["hemanta", "shishira", "varsha"],
+    "gunas": ["Laghu (Light)", "Snigdha (Unctuous)", "Tikta-Kashaya-Madhura"],
+    "virya": "Ushna (Heating)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Ashwagandha (Withania somnifera) is celebrated in classical Ayurveda as supreme among Balya (strength-promoting) and Rasayana (rejuvenating) botanicals. Its root smells faintly like a horse, imparting the stamina, vigor, and reproductive resilience of a stallion. It possesses Ushna Virya, Madhura Vipaka, and Tikta-Kashaya undertones. It grounds hyperactive Vata in the nervous system (Majja Dhatu), reduces elevated cortisol and cognitive burnout, calms insomnia (Anidra), strengthens musculoskeletal density, and tonifies the adrenal axis. Best consumed at bedtime (1/2 teaspoon powder) simmered in warm cow's milk with a pinch of nutmeg and cow's ghee.",
+    "classical_tags": ["Ashwagandha", "Rasayana", "Balya", "Vata-Kapha Pacifying", "Adaptogen", "Sleep"],
+    "contraindications": "Caution in acute Pitta inflammation, high fever (Ama Jwara), hyperthyroidism, and active gastric ulceration due to its heating potency."
+  },
+  {
+    "id": "herb_triphala_three_fruits_panacea",
+    "source": "Charaka Samhita, Chikitsa Sthana Ch. 1 & Bhavaprakasha Nighantu, Haritakyadi Varga",
+    "category": "herb",
+    "title": "Triphala (The Divine Triad: Haritaki, Bibhitaki, Amalaki)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all"],
+    "gunas": ["Ruksha (Dry)", "Laghu (Light)", "Pancha Rasa (Contains 5 of 6 tastes, lacking only salty)"],
+    "virya": "Anushna (Balanced Potency)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Triphala is the most celebrated compound formulation in Ayurvedic pharmacopoeia, consisting of equal parts of Haritaki (Terminalia chebula - pacifies Vata), Bibhitaki (Terminalia bellirica - pacifies Kapha), and Amalaki (Emblica officinalis - pacifies Pitta). It possesses five tastes (lacking only salt), acting as a true Tridoshic regulator. Unlike aggressive chemical laxatives that cause bowel dependency, Triphala is a gentle bowel tonic (Anulomana) that strengthens intestinal peristalsis, clears cellular metabolic sludge (Ama), cleanses the colon, purifies blood, and is renowned as Chakshushya (improving eye health). Taken with warm water at bedtime for bowel cleansing, or with ghee and honey for tissue rejuvenation.",
+    "classical_tags": ["Triphala", "Tridoshic", "Chakshushya", "Rasayana", "Anulomana", "Gut Health"],
+    "contraindications": "Avoid in acute severe diarrhea, dysentery, severe dehydration, and during early pregnancy without physician supervision."
+  },
+  {
+    "id": "herb_guduchi_giloy_tinospora_cordifolia",
+    "source": "Charaka Samhita, Sutrasthana Ch. 25 & Bhavaprakasha Nighantu, Guduchyadi Varga",
+    "category": "herb",
+    "title": "Guduchi / Giloy (Tinospora cordifolia / Amrita - The Nectar of Immortality)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "sharad", "grishma", "varsha"],
+    "gunas": ["Laghu (Light)", "Snigdha (Unctuous)", "Tikta-Kashaya (Bitter-Astringent)"],
+    "virya": "Ushna (Heating - yet Pitta pacifying due to Madhura Vipaka)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Guduchi (Tinospora cordifolia), also known as Amrita (immortal nectar), holds a unique status as 'Vayasthapana' (preserving youthful biological resilience). Despite possessing Ushna (mildly warming) Virya, its post-digestive Madhura Vipaka and bitter taste (Tikta Rasa) make it exceptional in pacifying burning Pitta and eliminating deep-seated toxins (Ama) without drying Vata. It is supreme in managing chronic recurring fevers (Jirna Jwara), protecting liver hepatocyte function, balancing blood uric acid (Vatarakta / Gout), and modulating cellular immunity. Neem-grown Giloy (Neem-Guduchi) is considered clinically superior for intense Pitta-Kapha disorders.",
+    "classical_tags": ["Guduchi", "Giloy", "Amrita", "Rasayana", "Immunity", "Jwara-Hara", "Liver Tonic"],
+    "contraindications": "Extremely safe; monitor blood glucose in diabetic patients on intensive medication as it naturally enhances insulin sensitivity."
+  },
+  {
+    "id": "herb_haridra_turmeric_curcuma_longa",
+    "source": "Charaka Samhita, Sutrasthana Ch. 4 & Bhavaprakasha Nighantu, Haritakyadi Varga",
+    "category": "herb",
+    "title": "Haridra (Curcuma longa / Golden Turmeric)",
+    "dosha_affinity": {
+      "vata": "balances",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "varsha", "vasanta", "hemanta"],
+    "gunas": ["Ruksha (Dry)", "Laghu (Light)", "Tikta-Katu (Bitter-Pungent)"],
+    "virya": "Ushna (Warming)",
+    "vipaka": "Katu (Pungent)",
+    "content": "Haridra (Curcuma longa) is celebrated as Varnya (enhancing complexion), Vishaghna (anti-toxic), and Krumighna (anti-parasitic). Its dominant bitter and pungent tastes scrape excessive mucus (Kapha) and dry oily inflammatory toxins from the blood (Rakta Shodhaka). It enhances micro-circulation, stabilizes systemic inflammation in joints, and regulates carbohydrate metabolism (Prameha). To maximize bioavailability, classical Ayurveda always pairs turmeric with a lipid media (cow's milk or ghee) and a pinch of black pepper (Maricha / piperine), which enhances absorption by over 2000%.",
+    "classical_tags": ["Haridra", "Turmeric", "Varnya", "Blood Purifier", "Anti-Inflammatory", "Golden Milk"],
+    "contraindications": "Avoid in large therapeutic quantities during active obstructive gallstones, severe acute hyperacidity, and bleeding diathesis."
+  },
+  {
+    "id": "herb_tulsi_holy_basil_ocimum_sanctum",
+    "source": "Bhavaprakasha Nighantu, Pushpa Varga & Dhanvantari Nighantu",
+    "category": "herb",
+    "title": "Tulsi (Ocimum sanctum / Holy Basil / Queen of Herbs)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "aggravates",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["varsha", "hemanta", "shishira", "vasanta"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Tikshna (Penetrating)", "Katu-Tikta (Pungent-Bitter)"],
+    "virya": "Ushna (Warming)",
+    "vipaka": "Katu (Pungent)",
+    "content": "Tulsi (Holy Basil) is revered as Surasa (fragrant and divine). With its penetrating (Tikshna), light, and warming qualities, it is the foremost household herb for upper respiratory tract disorders (Kasa-Shwasa-Hara), seasonal allergic rhinitis, and weak bronchial immunity. It kindles sluggish digestive Agni (Deepana), promotes healthy sweating to break chills, uplifts mental clarity, and dispels heaviness and mental brain fog caused by Kapha. Fresh leaves brewed with crushed ginger, black pepper, and honey make the classical seasonal immunity decoction.",
+    "classical_tags": ["Tulsi", "Holy Basil", "Pranavaha Srotas", "Respiratory Health", "Kapha-Vata Pacifying"],
+    "contraindications": "Due to its Ushna (heating) and Tikshna potency, avoid consuming in heavy doses during peak Pitta burning sensations, active bleeding, and high summer heat."
+  },
+  {
+    "id": "herb_brahmi_bacopa_monnieri",
+    "source": "Charaka Samhita, Sutrasthana Ch. 4 (Medhya Rasayana) & Ashtanga Hridaya",
+    "category": "herb",
+    "title": "Brahmi (Bacopa monnieri / Supreme Cognitive Tonic)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "sharad", "grishma"],
+    "gunas": ["Laghu (Light)", "Sara (Flowing)", "Tikta-Kashaya-Madhura"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Brahmi (Bacopa monnieri) is the premier 'Medhya Rasayana' (intellect, cognition, and memory revitalizer). It balances all three doshas with special emphasis on pacifying Sadhaka Pitta (emotional heart-mind processing) and Prana Vata (neurological impulses). It enhances memory retention (Dharana), cognitive recall (Smriti), and analytical discrimination (Dhi). Unlike commercial central nervous stimulants that leave the mind anxious, Brahmi provides tranquil, alert serenity, reducing mental hyperactivity and emotional irritability while promoting neuroprotection. Best taken with warm milk or infused as Brahmi Ghrita (medicated cow's ghee).",
+    "classical_tags": ["Brahmi", "Medhya Rasayana", "Cognitive Health", "Neuroprotective", "Pitta-Vata Calm"],
+    "contraindications": "Rarely produces mild nausea on empty stomach if taken without ghee or milk in high raw doses."
+  },
+  {
+    "id": "herb_shatavari_asparagus_racemosus",
+    "source": "Charaka Samhita, Sutrasthana Ch. 4 & Bhavaprakasha Nighantu, Guduchyadi Varga",
+    "category": "herb",
+    "title": "Shatavari (Asparagus racemosus / She Who Possesses a Hundred Husbands)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "aggravates"
+    },
+    "season_affinity": ["all", "sharad", "grishma"],
+    "gunas": ["Guru (Heavy)", "Snigdha (Unctuous)", "Madhura-Tikta (Sweet-Bitter)"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Shatavari (Asparagus racemosus) is the foremost nourishing tonic for female reproductive vitality (Stanya-Janana, Shukrala, and Rasayana), though equally beneficial for men experiencing thermal burnout and emaciation. Its sweet, unctuous, and cold nature acts like a soothing balm on mucosal linings, making it premier for hyperacidity, gastric mucosal erosion, burning sensations, menopausal hot flashes, and depleted bodily tissues (Dhatu Kshaya). It builds Ojas (vital biological essence) and nourishes the nervous system. Consumed with warm milk and a pinch of cardamom.",
+    "classical_tags": ["Shatavari", "Stanya", "Pitta-Vata Pacifying", "Cooling Tonic", "Ojas Builder"],
+    "contraindications": "Contraindicated in severe fluid retention, severe congestive Kapha lungs, and dense metabolic Ama."
+  },
+  {
+    "id": "herb_trikatu_three_pungents_digestion",
+    "source": "Charaka Samhita, Sutrasthana Ch. 27 & Sharngadhara Samhita",
+    "category": "herb",
+    "title": "Trikatu (The Three Pungents: Shunthi, Maricha, Pippali)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "aggravates",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["hemanta", "shishira", "varsha", "vasanta"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Tikshna (Sharp)", "Katu (Pungent)"],
+    "virya": "Ushna (Heating)",
+    "vipaka": "Katu (Pungent)",
+    "content": "Trikatu comprises equal proportions of Dry Ginger (Shunthi), Black Pepper (Maricha), and Long Pepper (Pippali). It is the premier pharmacological compound for kindling a severely dampened, sluggish digestive fire (Mandagni) and burning cold metabolic endotoxins (Ama). It clears respiratory congestion, stimulates bile and pancreatic enzyme secretions, accelerates sluggish metabolism, and enhances the bioavailability of other nutrients. A small culinary pinch taken before meals with raw honey stimulates appetite without causing flatulence.",
+    "classical_tags": ["Trikatu", "Deepana-Pachana", "Kapha-Vata Pacifying", "Bioavailability Enhancer", "Metabolism"],
+    "contraindications": "Strictly contraindicated in bleeding disorders, acute hyperacidity, peptic ulcers, and high Pitta constitution."
+  },
+  {
+    "id": "herb_amalaki_amla_indian_gooseberry",
+    "source": "Charaka Samhita, Chikitsa Sthana Ch. 1 (Rasayana Adhyaya) & Bhavaprakasha Nighantu",
+    "category": "herb",
+    "title": "Amalaki / Amla (Phyllanthus emblica / The Divine Fruit of Longevity)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "sharad", "grishma", "hemanta"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Pancha Rasa (Contains 5 tastes except salty)"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Amalaki (Indian Gooseberry) is hailed by Charaka as 'Vayasthapana Shreshtha' (the supreme herb for reversing physical and cellular aging). Though it tastes sour (Amla Rasa), it transforms miraculously into Madhura Vipaka (sweet post-digestive effect) and Sheeta Virya (cooling potency), which pacifies fiery Pitta without aggravating Kapha or Vata. It is the richest natural source of heat-stable Vitamin C and polyphenol tannins, strengthening hair follicles (Keshya), improving eyesight (Chakshushya), purifying blood, and nourishing cellular Ojas. It forms the backbone of the legendary Chyawanprash formulation.",
+    "classical_tags": ["Amalaki", "Amla", "Rasayana", "Tridoshic", "Chakshushya", "Keshya", "Anti-Aging"],
+    "contraindications": "Extremely safe; avoid excessive raw sour juice intake immediately before sleeping as it can produce dental sensitivity."
+  },
+  {
+    "id": "herb_eranda_castor_oil_ricinus_communis",
+    "source": "Charaka Samhita, Sutrasthana Ch. 25 & Ashtanga Hridaya Sutrasthana Ch. 13",
+    "category": "herb",
+    "title": "Eranda Taila (Castor Oil / The Lion that Destroys Vata)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["varsha", "hemanta", "shishira"],
+    "gunas": ["Guru (Heavy)", "Snigdha (Unctuous)", "Tikshna (Sharp)", "Sara (Laxative)"],
+    "virya": "Ushna (Heating)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Charaka declares Eranda Taila (pure castor oil) as the king of therapies for severe Vata disorders (Vata-hara Shreshtha). Vagbhata describes it poetically: 'Just as a fierce lion effortlessly slays an elephant, castor oil effortlessly destroys the most stubborn, entrenched Vata afflictions in the joints, colon, and lumbar spine.' Taken in a therapeutic dose of 1 to 2 teaspoons with warm ginger water or warm milk at bedtime, it produces gentle, thorough downward purgation (Bhedana / Rechana), dislodging sticky toxic waste from the colon and immediately relieving chronic lumbar backache, sciatic pain, and deep joint stiffness.",
+    "classical_tags": ["Eranda", "Castor Oil", "Vata-Shreshtha", "Bhedana", "Joint Stiffness", "Sciatica"],
+    "contraindications": "Contraindicated in acute abdominal pain of unknown origin, appendicitis, mechanical intestinal obstruction, and pregnancy."
+  },
+  {
+    "id": "herb_arjuna_terminalia_arjuna",
+    "source": "Charaka Samhita Chikitsa Sthana Ch. 26 (Hridroga Chikitsa) & Bhavaprakasha Nighantu, Vatadi Varga",
+    "category": "herb",
+    "title": "Arjuna (Terminalia arjuna / The Supreme Cardiac Protector)",
+    "dosha_affinity": {
+      "vata": "neutral",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "sharad", "grishma"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Kashaya (Astringent)"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Katu (Pungent)",
+    "content": "Arjuna bark is revered in classical treatises as supreme among Hridya (cardiotonic) herbs. Its astringent taste (Kashaya) and cooling potency (Sheeta Virya) tone heart muscle fibers, promote arterial endothelial integrity, normalize high blood pressure (Raktachapa), and regulate lipid profiles. Classical decoction protocol: Simmer 1 teaspoon of Arjuna bark powder in equal parts cow's milk and water (Arjuna Ksheerapaka) until only the milk portion remains; consume morning and evening for cardiac stamina and angina relief.",
+    "classical_tags": ["Arjuna", "Hridya", "Cardioprotective", "Hypertension", "Ksheerapaka", "Pitta-Kapha Pacifying"],
+    "contraindications": "Safe for long-term use; do not use as a standalone substitute for acute emergency myocardial infarction care."
+  },
+  {
+    "id": "herb_neem_nimba_azadirachta_indica",
+    "source": "Charaka Samhita Sutrasthana Ch. 25 & Bhavaprakasha Nighantu, Guduchyadi Varga",
+    "category": "herb",
+    "title": "Neem / Nimba (Azadirachta indica / The Divine Detoxifier)",
+    "dosha_affinity": {
+      "vata": "aggravates_if_excess",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["vasanta", "grishma", "sharad"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Tikta (Bitter)", "Kashaya (Astringent)"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Katu (Pungent)",
+    "content": "Neem (Nimba) is hailed as the foremost among Tikta (bitter) Dravyas for blood purification (Rakta Shodhaka) and treating skin disorders (Kushthaghna). Its intense bitter and astringent properties drain inflammatory toxins (Ama), clear cystic acne, soothe eczema and psoriasis, kill pathogenic micro-organisms (Krimighna), and stabilize blood sugar in metabolic disorders (Prameha). Drink fresh leaf infusion or apply pure Neem seed oil diluted with coconut oil topically for stubborn fungal and inflammatory dermatological lesions.",
+    "classical_tags": ["Neem", "Nimba", "Raktashodhaka", "Kushthaghna", "Acne", "Skin Healing", "Blood Cleanser"],
+    "contraindications": "Avoid in extreme emaciation, acute Vata dryness, male and female fertility therapies (acts as temporary spermatogenesis inhibitor), and during pregnancy."
+  },
+  {
+    "id": "herb_shankhpushpi_convolvulus_pluricaulis",
+    "source": "Charaka Samhita Chikitsa Sthana Ch. 1-3 (Medhya Rasayana) & Sushruta Samhita",
+    "category": "herb",
+    "title": "Shankhpushpi (Convolvulus pluricaulis / Supreme Cognitive Elixir)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["all"],
+    "gunas": ["Snigdha (Unctuous)", "Picchila (Slimy)", "Tikta (Bitter)"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Among the four classical Medhya Rasayanas celebrated by Charaka, Shankhpushpi is declared as supreme for intellect, memory retention (Dharana Shakti), and calming hyperactive mental chatter (Chitta Vritti Nirodha). Its beautiful conch-shaped white flowers possess cooling Sheeta Virya and unctuous qualities that nourish the nervous system (Majja Dhatu), pacify Sadhaka Pitta, relieve exam anxiety, alleviate mental fatigue, and induce deep non-drowsy sleep. Consume 1/2 teaspoon powder with warm cow's milk and rock sugar.",
+    "classical_tags": ["Shankhpushpi", "Medhya Rasayana", "Cognitive Health", "Anxiety", "Memory", "Sleep"],
+    "contraindications": "Extremely safe; may produce mild hypotensive effects, so monitor in patients with chronic low blood pressure."
+  },
+  {
+    "id": "herb_kutki_picrorhiza_kurroa",
+    "source": "Charaka Samhita Chikitsa Sthana Ch. 3 & Bhavaprakasha Nighantu, Haritakyadi Varga",
+    "category": "herb",
+    "title": "Kutki / Katuki (Picrorhiza kurroa / Master Hepatoprotective Bitter)",
+    "dosha_affinity": {
+      "vata": "neutral",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["sharad", "grishma", "varsha"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Tikta (Intensely Bitter)"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Katu (Pungent)",
+    "content": "Kutki is an endangered Himalayan rhizome revered as the premier Yakrit-Pleeha (liver and spleen) protector. It acts as a natural Bhedana (purgative of stagnant bile), decongesting liver microcirculation, resolving fatty liver infiltration, clearing chronic jaundice (Kamala), and treating sluggish constipation caused by biliary stasis. Traditionally taken under strict Vaidya supervision with raw honey to stimulate bile secretion; for daily kitchen liver care, cooling turmeric, amla, and coriander water are favored.",
+    "classical_tags": ["Kutki", "Katuki", "Yakrit-Pleeha", "Liver Tonic", "Bile Cleanser", "Kamala", "Detox"],
+    "contraindications": "Avoid high dosages as it induces loose watery stools; contraindicated in severe diarrhea, dehydration, and during pregnancy."
+  },
+  {
+    "id": "herb_pippali_piper_longum",
+    "source": "Charaka Samhita Chikitsa Sthana Ch. 1 & Ashtanga Hridaya Sutrasthana Ch. 6",
+    "category": "herb",
+    "title": "Pippali (Piper longum / Long Pepper - The Respiratory Rejuvenator)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral_due_to_madhura_vipaka",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["hemanta", "shishira", "varsha"],
+    "gunas": ["Laghu (Light)", "Snigdha (Unctuous)", "Tikshna (Penetrating)"],
+    "virya": "Anushna (Neither excessively hot nor cold; mild heating)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Unlike black pepper which is dry and purely heating, Pippali possesses a unique unctuous quality and Madhura Vipaka that makes it an extraordinary Deepana (digestive stimulant) and Rasayana for the respiratory channels (Pranavaha Srotas). It liquefies dense phlegm in chronic bronchitis, asthma (Tamaka Shwasa), and allergic coughs, while strengthening lung alveolar capacity. The classical Pippali Rasayana protocol gradually escalates long pepper infused in milk to permanently reset weakened respiratory immunity.",
+    "classical_tags": ["Pippali", "Long Pepper", "Pranavaha Srotas", "Deepana", "Asthma", "Respiratory Rasayana"],
+    "contraindications": "Avoid prolonged continuous high-dose use in acute Pitta gastritis, bleeding piles, or active peptic ulcers."
+  },
+  {
+    "id": "herb_manjistha_rubia_cordifolia",
+    "source": "Charaka Samhita Sutrasthana Ch. 4 (Varnya Mahakashaya) & Bhavaprakasha Nighantu",
+    "category": "herb",
+    "title": "Manjistha (Rubia cordifolia / Indian Madder - Master Lymphatic Purifier)",
+    "dosha_affinity": {
+      "vata": "neutral",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "sharad", "grishma"],
+    "gunas": ["Guru (Heavy)", "Ruksha (Dry)", "Tikta-Kashaya-Madhura"],
+    "virya": "Ushna (Mildly Heating)",
+    "vipaka": "Katu (Pungent)",
+    "content": "Manjistha is supreme among classical Varnya (complexion-enhancing) and Rakta-Prasadana (blood purifying) botanicals. Its deep red root acts directly on the lymphatic network (Rasa Dhatu) and vascular bed, breaking down stagnant toxic metabolic waste that manifests as melasma, dark spots, hormonal cystic acne, and chronic dermatitis. It cools inflammatory heat in the blood, dissolves stagnant micro-clots, and promotes smooth uterine blood flow during menstruation.",
+    "classical_tags": ["Manjistha", "Varnya", "Blood Purifier", "Lymphatic Cleanser", "Skin Glow", "Pitta Pacifying"],
+    "contraindications": "Safe; may temporarily impart an innocuous reddish-brown tint to urine; exercise caution in severe dehydration."
+  },
+  {
+    "id": "herb_gokshura_tribulus_terrestris",
+    "source": "Charaka Samhita Sutrasthana Ch. 4 (Mutrala Mahakashaya) & Bhavaprakasha Nighantu",
+    "category": "herb",
+    "title": "Gokshura (Tribulus terrestris / Master Renal & Urogenital Tonic)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["all", "grishma", "sharad"],
+    "gunas": ["Guru (Heavy)", "Snigdha (Unctuous)", "Madhura (Sweet)"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Gokshura is the pre-eminent Mutrala (diuretic) and Ashmarighna (kidney stone dissolution) botanical in Ayurvedic medicine. It soothes burning micturition (Mutrakrichhra), washes micro-crystalluria from renal calyces, clears urinary tract inflammation, and tonifies the bladder sphincter. Simultaneously, its sweet post-digestive taste and unctuous nature make it a prized Vrishya (aphrodisiac and reproductive tonic), supporting testosterone synthesis and prostate vitality in men and bladder tone in women.",
+    "classical_tags": ["Gokshura", "Mutrala", "Kidney Stones", "UTI Relief", "Vrishya", "Renal Health"],
+    "contraindications": "Do not administer in acute severe dehydration without adequate fluid rehydration therapy."
+  },
+  {
+    "id": "herb_yashtimadhu_mulethi_glycyrrhiza_glabra",
+    "source": "Charaka Samhita Sutrasthana Ch. 4 (Kanthya & Varnya Mahakashaya) & Bhavaprakasha Nighantu",
+    "category": "herb",
+    "title": "Yashtimadhu / Mulethi (Glycyrrhiza glabra / Licorice - Mucosal Healer)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "aggravates_if_excess"
+    },
+    "season_affinity": ["all", "grishma", "sharad"],
+    "gunas": ["Guru (Heavy)", "Snigdha (Unctuous)", "Madhura (Sweet)"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Yashtimadhu (Licorice root) is celebrated as Kanthya (throat-soothing) and Vranaropaka (ulcer-healing). Its sweet taste and cooling potency directly coat, lubricate, and regenerate mucosal linings of the esophagus and stomach, making it a primary defense against peptic ulcers, acid reflux (Amlapitta), and hoarse voice (Svarabheda). Taken with warm water or cow's milk 20 minutes before meals, it forms a protective biocompatible layer against sharp gastric acid.",
+    "classical_tags": ["Yashtimadhu", "Mulethi", "Acid Reflux", "Kanthya", "Ulcer Healer", "Pitta Pacifier"],
+    "contraindications": "Avoid in patients with severe unmanaged hypertension, fluid retention, or hyperaldosteronism due to glycyrrhizin activity."
+  },
+  {
+    "id": "herb_haritaki_terminalia_chebula",
+    "source": "Charaka Samhita Chikitsa Sthana Ch. 1 (Rasayana Adhyaya) & Bhavaprakasha Nighantu",
+    "category": "herb",
+    "title": "Haritaki (Terminalia chebula / The Mother of All Herbs - Abhaya)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Pancha Rasa (All tastes except salty)"],
+    "virya": "Ushna (Mildly Heating)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Classical scriptures praise Haritaki: 'Like a compassionate mother caring for her child, Haritaki nourishes and protects the body from all afflictions.' It is the king of Anulomana (smooth downwards peristalsis), eliminating sluggish colon sludge without causing habituation or abdominal cramping. It stimulates Jatharagni, cleanses metabolic toxins (Ama), improves voice quality, clears brain fog, and longevity. Seasonal Ritu-Haritaki protocol: taken with rock salt in monsoon, sugar in autumn, ginger in winter, and honey in spring.",
+    "classical_tags": ["Haritaki", "Abhaya", "Rasayana", "Anulomana", "Tridoshic", "Longevity", "Colon Tonic"],
+    "contraindications": "Contraindicated in acute severe exhaustion, extreme dehydration, heavy fasting, and pregnancy."
+  },
+  {
+    "id": "herb_punarnava_boerhavia_diffusa",
+    "source": "Charaka Samhita Sutrasthana Ch. 4 (Shothahara Mahakashaya) & Bhavaprakasha Nighantu",
+    "category": "herb",
+    "title": "Punarnava (Boerhavia diffusa / Rejuvenator of Degenerated Cells)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "varsha"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Madhura-Tikta-Kashaya"],
+    "virya": "Ushna (Heating)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Literally translated as 'that which makes new again' (Punar + Nava), Punarnava is the foremost Shothahara (edema and water retention relieving) herb in Ayurvedic science. It stimulates renal filtration, drains interstitial extracellular edema from puffy eyes, ankles, and swollen feet, and regenerates damaged nephrons and liver parenchyma. Taken as a warm decoction or powder with ginger water, it treats congestive heart failure symptoms, chronic nephritis, and toxic fluid accumulation.",
+    "classical_tags": ["Punarnava", "Shothahara", "Edema", "Kidney Regeneration", "Fluid Balance", "Diuretic"],
+    "contraindications": "Safe; ensure proper electrolyte management when used for heavy fluid retention."
+  },
+  {
+    "id": "herb_bhringraj_eclipta_alba",
+    "source": "Bhavaprakasha Nighantu, Guduchyadi Varga & Sharngadhara Samhita",
+    "category": "herb",
+    "title": "Bhringraj (Eclipta alba / Keshya - Master Follicular Rejuvenator)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "grishma", "sharad"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Katu-Tikta (Pungent-Bitter)"],
+    "virya": "Ushna (Mild Heating yet cools head Pitta)",
+    "vipaka": "Katu (Pungent)",
+    "content": "Bhringraj is celebrated as Keshya (supreme for hair rejuvenation and scalp cellular vitality). It directly calms excess Pitta residing in the hair roots (Romakupa) and cranial scalp, arresting premature graying (Palitya), hair thinning, and alopecia (Khalitya). In addition to hair oils (Bhringraj Taila), internal consumption of Bhringraj juice or powder cleanses the liver, strengthens eyesight, and calms neurological stress headaches.",
+    "classical_tags": ["Bhringraj", "Keshya", "Hair Growth", "Pitta Calming", "Liver Cleanser", "Scalp Health"],
+    "contraindications": "Safe for both internal and topical administration; avoid excessive cold water baths immediately after head oiling."
+  },
+  {
+    "id": "herb_bala_sida_cordifolia",
+    "source": "Charaka Samhita Sutrasthana Ch. 4 (Balya Mahakashaya) & Bhavaprakasha Nighantu",
+    "category": "herb",
+    "title": "Bala (Sida cordifolia / Supreme Neuro-Muscular Strength Tonic)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["all", "hemanta", "shishira"],
+    "gunas": ["Guru (Heavy)", "Snigdha (Unctuous)", "Picchila (Slimy)", "Madhura (Sweet)"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "True to its Sanskrit name meaning 'Strength' (Bala), this botanical is the foremost Balya (strength-promoting) and Bruhmana (body-building) herb for severely emaciated or neuro-muscularly compromised patients. It nourishes Mamsa Dhatu (muscles) and Majja Dhatu (nervous system), making it standard clinical protocol in post-stroke recovery, facial palsy, muscular dystrophy, chronic fatigue syndrome, and sports injury rehabilitation. Consumed as Ksheerapaka or medicated massage oil (Ksheerabala Taila).",
+    "classical_tags": ["Bala", "Balya", "Neuromuscular Strength", "Vata-Pacifying", "Muscular Tonic", "Rehabilitation"],
+    "contraindications": "Avoid in acute heavy Kapha chest congestion, dense Ama toxicity, or obesity."
+  },
+  {
+    "id": "herb_vidanga_embelia_ribes",
+    "source": "Charaka Samhita Sutrasthana Ch. 4 (Krimighna Mahakashaya) & Bhavaprakasha Nighantu",
+    "category": "herb",
+    "title": "Vidanga (Embelia ribes / Supreme Intestinal Parasite & Biofilm Eradicator)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "neutral",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "varsha"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Tikshna (Penetrating)", "Katu-Kashaya"],
+    "virya": "Ushna (Heating)",
+    "vipaka": "Katu (Pungent)",
+    "content": "Vidanga is crowned in classical pharmacopoeias as the ultimate Krimighna (anti-parasitic and anti-microbial) herb. It penetrates deep gut mucosa, destroys intestinal worms, tapeworms, and pathogenic fungal/bacterial biofilms without depleting beneficial commensal gut flora. It kindles Jatharagni, expels trapped abdominal gas, and treats recurrent childhood skin rashes and poor appetite caused by parasitic infection. Administered with warm honey water or cow's ghee.",
+    "classical_tags": ["Vidanga", "Krimighna", "Anti-Parasitic", "Gut Health", "Deepana", "Biofilm Disrupter"],
+    "contraindications": "Avoid continuous uninterrupted administration for several months in patients undergoing active fertility treatments."
+  },
+  {
+    "id": "herb_kumari_aloe_vera",
+    "source": "Bhavaprakasha Nighantu, Guduchyadi Varga & Sharngadhara Samhita",
+    "category": "herb",
+    "title": "Kumari / Ghritakumari (Aloe barbadensis / Master Female Tonic & Skin Regenerator)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "neutral"
+    },
+    "season_affinity": ["all", "grishma", "sharad"],
+    "gunas": ["Guru (Heavy)", "Snigdha (Unctuous)", "Picchila (Slimy)", "Tikta-Madhura"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Madhura (Sweet)",
+    "content": "Kumari (meaning 'Youthful Maiden') is revered as a premier Artavajanana (promoter of healthy menstrual flow) and Rasayana for the female reproductive axis (Shukra/Artava Dhatu). Fresh aloe gel cools fiery Pitta in the liver, relieves chronic constipation, purifies blood, soothes acid reflux, and stimulates delayed or scanty menses in conditions like PCOS/PCOD. Topically, it instantly calms sunburn, radiation erythema, acne scars, and skin dryness.",
+    "classical_tags": ["Kumari", "Aloe Vera", "PCOS", "Artavajanana", "Pitta Pacifier", "Skin Healing", "Liver Tonic"],
+    "contraindications": "Avoid internal consumption of raw unpurified latex (yellow sap) during pregnancy, active hemorrhoids, and heavy menstrual bleeding."
+  },
+  {
+    "id": "herb_musta_cyperus_rotundus",
+    "source": "Charaka Samhita Sutrasthana Ch. 4 (Deepaniya & Sangrahaniya Mahakashaya)",
+    "category": "herb",
+    "title": "Musta / Nagarmotha (Cyperus rotundus / Master Digestive & IBS Regulator)",
+    "dosha_affinity": {
+      "vata": "neutral",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "varsha", "sharad"],
+    "gunas": ["Laghu (Light)", "Ruksha (Dry)", "Tikta-Kashaya-Katu"],
+    "virya": "Sheeta (Cooling)",
+    "vipaka": "Katu (Pungent)",
+    "content": "Musta (Nut grass rhizome) holds an exceptional pharmacological place: it is both Deepana (kindles digestive fire) and Sangrahi (absorptive/checks loose watery stool), while simultaneously possessing cooling Sheeta Virya. This makes it the undisputed gold standard for Irritable Bowel Syndrome (Grahani Roga), chronic dysentery, inflammatory bowel flare-ups, and childhood fever with diarrhea. Taken with buttermilk (Takra) or ginger water.",
+    "classical_tags": ["Musta", "Nagarmotha", "IBS", "Grahani", "Sangrahi", "Deepana", "Digestive Cooling"],
+    "contraindications": "Avoid in severe dry, hard stool constipation as its binding nature may intensify bowel dryness."
+  }
+]

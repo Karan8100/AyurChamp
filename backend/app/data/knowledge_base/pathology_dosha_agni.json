@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pathology_samanya_vishesha_siddhanta",
+    "source": "Charaka Samhita, Sutrasthana Ch. 1 (Ayushkamiya Adhyaya), Verse 44",
+    "category": "general",
+    "title": "The Fundamental Principle of Opposites: Samanya-Vishesha Siddhanta",
+    "dosha_affinity": {
+      "vata": "balances",
+      "pitta": "balances",
+      "kapha": "balances"
+    },
+    "season_affinity": ["all"],
+    "content": "Charaka establishes the master axiom of Ayurvedic therapeutics: 'Sarvada Sarva-Bhavanam Samanyam Vriddhi-Karanam, Hrasa-Hetus Cha Visheshasya' — similarity in attributes (Samanya) is always the cause of increase, whereas dissimilarity / opposite attributes (Vishesha) is the cause of decrease and balancing. If Vata is dry and cold, consuming dry and cold items will further increase Vata (disease); introducing opposite qualities — warmth (Ushna), unctuousness (Snigdha), and grounding heaviness (Guru) — immediately restores equilibrium. This law governs all personalized dietary synthesis in AYUSHYA.",
+    "classical_tags": ["Samanya Vishesha", "Opposites Balance", "Core Axiom", "Therapeutic Law", "Dosha Harmony"],
+    "contraindications": "Applying similar qualities to an already aggravated dosha creates rapid acute disease (Prakopa)."
+  },
+  {
+    "id": "pathology_agni_four_digestive_states",
+    "source": "Charaka Samhita, Vimanasthana Ch. 6, Verse 12 & Madhava Nidana",
+    "category": "diet",
+    "title": "The Four Functional States of Agni (Digestive Fire)",
+    "dosha_affinity": {
+      "vata": "balances",
+      "pitta": "balances",
+      "kapha": "balances"
+    },
+    "season_affinity": ["all"],
+    "content": "Jatharagni (digestive metabolic fire) manifests in four distinct states based on doshic influence: 1) Samagni (Balanced Fire): Normal healthy digestion; completely digests food eaten at proper times without gas or acidity. 2) Vishamagni (Erratic Fire - Vata Dominant): Sometimes digests rapidly, other times fails to digest small meals; causes bloating, alternating constipation, and dry stools. 3) Tikshnagni (Intense Hyper-Fire - Pitta Dominant): Consumes food excessively fast; causes thirst, hot flashes, heartburn, and ravenous hunger. 4) Mandagni (Sluggish Hypo-Fire - Kapha Dominant): Extremely slow digestion; even tiny meals cause heaviness, coated white tongue, lethargy, and excess mucus.",
+    "classical_tags": ["Agni", "Samagni", "Vishamagni", "Tikshnagni", "Mandagni"],
+    "contraindications": "Feeding heavy foods during Mandagni or severe fasting during Tikshnagni creates severe pathological damage."
+  },
+  {
+    "id": "pathology_ama_endotoxins_and_signs",
+    "source": "Ashtanga Hridaya, Sutrasthana Ch. 13, Verse 23-25",
+    "category": "general",
+    "title": "Ama (Metabolic Endotoxins) Formation, Signs & Symptoms",
+    "dosha_affinity": {
+      "vata": "aggravates",
+      "pitta": "aggravates",
+      "kapha": "aggravates"
+    },
+    "season_affinity": ["all"],
+    "content": "When Jatharagni is impaired, the ingested food undergoes incomplete fermentation rather than clean digestion, yielding a foul, heavy, sticky metabolic residue called Ama. Ama clogs the micro-channels (Srotas), adheres to biological tissues, and serves as the root etiology of chronic disease. Classical clinical signs of Ama: thick white coating on the tongue, bad breath, chronic morning lethargy and heaviness (Gaurava), loss of appetite (Aruchi), unrefreshed waking, constipation with sticky foul-smelling stools that sink in water, and generalized joint aches without structural injury.",
+    "classical_tags": ["Ama", "Endotoxins", "Coated Tongue", "Srotorodha", "Metabolic Sludge"],
+    "contraindications": "Never administer tonifying rejuvenating herbs (Rasayanas) like Ashwagandha or Chyawanprash while acute Ama is present; herbs must be preceded by Ama-cleansing."
+  },
+  {
+    "id": "pathology_deepana_pachana_treatment",
+    "source": "Sharngadhara Samhita, Purva Khanda Ch. 4, Verse 1-4",
+    "category": "diet",
+    "title": "Kindling Digestive Fire vs Digesting Toxins (Deepana vs Pachana)",
+    "dosha_affinity": {
+      "vata": "pacifies",
+      "pitta": "balances",
+      "kapha": "pacifies"
+    },
+    "season_affinity": ["all", "varsha", "vasanta"],
+    "content": "Sharngadhara establishes the clinical difference between two digestive therapies: 1) Deepana: Herbs and spices that rekindle sluggish digestive fire without directly digesting metabolic Ama (e.g., Cumin / Jeera, Fennel / Saunf). 2) Pachana: Herbs that directly digest and break down toxic Ama residues without necessarily increasing the digestive heat (e.g., Nagarmotha / Cyperus rotundus). 3) Deepana-Pachana Combined: Agents that both kindle the fire and digest Ama simultaneously (e.g., Dry Ginger / Shunthi, Black Pepper / Maricha, Pippali). Taking warm ginger water before meals provides dual Deepana-Pachana action.",
+    "classical_tags": ["Deepana", "Pachana", "Shunthi", "Ama-Clearing", "Digestive Fire Protocol"],
+    "contraindications": "Contraindicated in severe internal hemorrhages, acute dehydration, and burning gastric erosions."
+  }
+]
